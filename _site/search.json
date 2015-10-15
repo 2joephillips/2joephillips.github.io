@@ -1,0 +1,139 @@
+[
+  
+    {
+      "title"    : "Portfolio",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/hillwood-home-team-marketing-and-website-design/",
+      "date"     : "02 Oct 2015"
+    } ,
+  
+    {
+      "title"    : "Welcome to Jekyll",
+      "category" : "jekyll is awesome",
+      "tags"     : "jekyll and web",
+      "url"      : "/welcome-to-jekyll/",
+      "date"     : "03 Aug 2015"
+    } ,
+  
+    {
+      "title"    : "How to use",
+      "category" : "i love jekyll",
+      "tags"     : "jekyll and template",
+      "url"      : "/how-to-use/",
+      "date"     : "02 Aug 2015"
+    } ,
+  
+    {
+      "title"    : "Comic Vine API Examples &amp;#8230;.. Part 2",
+      "category" : "api callsprogramming",
+      "tags"     : "",
+      "url"      : "/comic_vine_api_examples_part2/",
+      "date"     : "23 Jun 2015"
+    } ,
+  
+    {
+      "title"    : "My Set-up Sublime Text 3 the Best Text Editor",
+      "category" : "programming",
+      "tags"     : "",
+      "url"      : "/my-set-up-sublime-text-3-the-best-text-editor/",
+      "date"     : "05 Jun 2015"
+    } ,
+  
+    {
+      "title"    : "How to use Comic Vine API &amp;#8211; Part 1",
+      "category" : "api callsprogramming",
+      "tags"     : "",
+      "url"      : "/how-to-use-comic-vine-api-part-1/",
+      "date"     : "26 May 2015"
+    } ,
+  
+    {
+      "title"    : "KataDay &amp;#8211; StringCalculator",
+      "category" : "katadaytest driven developmentuncategorized",
+      "tags"     : "",
+      "url"      : "/kataday_stringcalculator/",
+      "date"     : "22 May 2015"
+    } ,
+  
+    {
+      "title"    : "Kataday &amp;#8230; Turkey Countdown",
+      "category" : "katadaytest driven developmentuncategorized",
+      "tags"     : "",
+      "url"      : "/kataday-turkey-countdown/",
+      "date"     : "21 May 2015"
+    } ,
+  
+    {
+      "title"    : "Solve 5 problems in 25 minutes",
+      "category" : "kataday",
+      "tags"     : "",
+      "url"      : "/solve-5-problems-in-25-minutes/",
+      "date"     : "20 May 2015"
+    } ,
+  
+    {
+      "title"    : "Code Kata + today = Kataday!",
+      "category" : "kataday",
+      "tags"     : "",
+      "url"      : "/code-kata-today-kataday/",
+      "date"     : "19 May 2015"
+    } ,
+  
+    {
+      "title"    : "Learning Version Control &amp;#8211; Why is it important?",
+      "category" : "uncategorized",
+      "tags"     : "",
+      "url"      : "/learning-version-control-important/",
+      "date"     : "14 May 2015"
+    } ,
+  
+    {
+      "title"    : "Does Conway&amp;#8217;s Law effect the way your business designs systems?",
+      "category" : "designprogramming",
+      "tags"     : "",
+      "url"      : "/conways-law/",
+      "date"     : "12 May 2015"
+    } ,
+  
+    {
+      "title"    : "Create A Plan before Automating&amp;#8230; Importance of Project Management",
+      "category" : "project management",
+      "tags"     : "",
+      "url"      : "/create-a-plan-before-automating-importance-of-project-management/",
+      "date"     : "09 May 2015"
+    } ,
+  
+    {
+      "title"    : "My Takeaways on Understanding Software Construction Metaphors",
+      "category" : "my takeaways",
+      "tags"     : "",
+      "url"      : "/what-am-i-learning-software-construction-metaphors/",
+      "date"     : "06 May 2015"
+    } ,
+  
+    {
+      "title"    : "My Takeaways on Software Construction &amp;#8211; The What and Why",
+      "category" : "my takeaways",
+      "tags"     : "",
+      "url"      : "/my-takeaways-on-software-construction-the-what-and-why/",
+      "date"     : "05 May 2015"
+    } ,
+  
+    {
+      "title"    : "Transforming your code from Red to Green by always failing first.",
+      "category" : "programmingtest driven development",
+      "tags"     : "",
+      "url"      : "/transforming-your-code-from-red-to-green-by-always-failing-first/",
+      "date"     : "01 May 2015"
+    } ,
+  
+    {
+      "title"    : "Freedom Friday!   Less Emails. More Work&amp;#8230;  Creating a Zero Inbox.",
+      "category" : "productivityquick tips",
+      "tags"     : "email and Inbox_Zero",
+      "url"      : "/freedom-friday-less-emails-more-work-creating-a-zero-inbox/",
+      "date"     : "23 Apr 2015"
+    } 
+  
+]

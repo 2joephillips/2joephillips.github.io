@@ -5,9 +5,8 @@ layout: post
 permalink: /freedom-friday-less-emails-more-work-creating-a-zero-inbox/
 categories:
   - Productivity
-  - Quick Tips
 tags:
-  - email
+  - Email
   - Inbox_Zero
 ---
 I ran across this story. [How This Company Is Trying To Eradicate Email][1] It got me thinking about *zeroing out our inboxes and reducing time spent on email*. Could you imagine, clearing out your inbox daily like home mailboxes!?!

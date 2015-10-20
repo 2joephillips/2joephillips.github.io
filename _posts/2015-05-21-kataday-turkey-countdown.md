@@ -6,7 +6,6 @@ permalink: /kataday-turkey-countdown/
 categories:
   - KataDay
   - Test Driven Development
-  - Uncategorized
 ---
 In honor of one of my favorite countdowns, [Slapsgiving][1], we will do a modified NASA Countdown, but call it Turkey Countdown for today&#8217;s KataDay and add a splash of <a href="http://en.wikipedia.org/wiki/Test-driven_development" target="_blank">TDD </a>for extra effort.
 

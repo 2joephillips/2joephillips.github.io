@@ -6,7 +6,6 @@ permalink: /kataday_stringcalculator/
 categories:
   - KataDay
   - Test Driven Development
-  - Uncategorized
 ---
 For my last day of KataDay, I thought would continue on my TDD Kata&#8217;s and decided to do, [Roy Osherove&#8217;s String Calculator][1].
 

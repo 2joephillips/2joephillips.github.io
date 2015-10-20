@@ -50,7 +50,7 @@
   
     {
       "title"    : "KataDay &amp;#8211; StringCalculator",
-      "category" : "katadaytest driven developmentuncategorized",
+      "category" : "katadaytest driven development",
       "tags"     : "",
       "url"      : "/kataday_stringcalculator/",
       "date"     : "22 May 2015"
@@ -58,7 +58,7 @@
   
     {
       "title"    : "Kataday &amp;#8230; Turkey Countdown",
-      "category" : "katadaytest driven developmentuncategorized",
+      "category" : "katadaytest driven development",
       "tags"     : "",
       "url"      : "/kataday-turkey-countdown/",
       "date"     : "21 May 2015"
@@ -130,8 +130,8 @@
   
     {
       "title"    : "Freedom Friday!   Less Emails. More Work&amp;#8230;  Creating a Zero Inbox.",
-      "category" : "productivityquick tips",
-      "tags"     : "email and Inbox_Zero",
+      "category" : "productivity",
+      "tags"     : "Email and Inbox_Zero",
       "url"      : "/freedom-friday-less-emails-more-work-creating-a-zero-inbox/",
       "date"     : "23 Apr 2015"
     } 

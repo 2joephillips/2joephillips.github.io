@@ -1,14 +1,6 @@
 [
   
     {
-      "title"    : "Portfolio",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/hillwood-home-team-marketing-and-website-design/",
-      "date"     : "02 Oct 2015"
-    } ,
-  
-    {
       "title"    : "Welcome to Jekyll",
       "category" : "jekyll is awesome",
       "tags"     : "jekyll and web",

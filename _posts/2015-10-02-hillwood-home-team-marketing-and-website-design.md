@@ -2,6 +2,7 @@
 title: Portfolio
 author: 2joes
 layout: page
+published: false
 ---
 <div class="jetpack-portfolio-shortcode column-2">
   <div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">

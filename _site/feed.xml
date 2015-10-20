@@ -5,19 +5,9 @@
     <description>A blog about lorem ipsum dolor sit amet</description>
     <link>http://2joephillips.github.io//</link>
     <atom:link href="http://2joephillips.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Oct 2015 20:50:57 -0400</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2015 20:50:57 -0400</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2015 19:53:23 -0400</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2015 19:53:23 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Portfolio</title>
-        <description>&lt;div class=&quot;jetpack-portfolio-shortcode column-2&quot;&gt; &lt;div class=&quot;portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row&quot;&gt; &lt;header class=&quot;portfolio-entry-header&quot;&gt; &lt;a class=&quot;portfolio-featured-image&quot; href=&quot;http://josephephillips.com/?post_type=jetpack-portfolio&amp;#038;p=582&quot;&gt;&lt;img width=&quot;720&quot; height=&quot;405&quot; src=&quot;http://josephephillips.com/wp-content/uploads/2015/10/Market.jpg&quot; class=&quot;attachment-large wp-post-image&quot; alt=&quot;Market&quot; /&gt;&lt;/a&gt; &lt;h2 class=&quot;portfolio-entry-title&quot;&gt; &lt;a href=&quot;http://josephephillips.com/?post_type=jetpack-portfolio&amp;#038;p=582&quot; title=&quot;HillWood Home Team &amp;#8211; Marketing and Website Design&quot;&gt;HillWood Home Team &amp;#8211; Marketing and Website Design&lt;/a&gt; &lt;/h2&gt; &lt;div class=&quot;portfolio-entry-meta&quot;&gt; &lt;/div&gt;&lt;/header&gt; &lt;div class=&quot;portfolio-entry-content&quot;&gt; &lt;p&gt; With 10 year experience in selling homes in Buford, GA, I was able to help HillWood Home Team refresh their brand through a new website and marketing materials that showcase their services.  The goal of the project was to highlight the major services they provide and create a interactive site that provided at its core MLS search....</description>
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//hillwood-home-team-marketing-and-website-design/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//hillwood-home-team-marketing-and-website-design/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Welcome to Jekyll</title>
@@ -140,6 +130,18 @@
         
         
         <category>kataday</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning Version Control &amp;#8211; Why is it important?</title>
+        <description>&lt;p&gt;Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?&lt;/p&gt; &lt;p&gt;It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad’s post &lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;A Visual Guide to Version Control&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;&lt;img class=&quot;aligncenter&quot; src=&quot;http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350&quot; alt=&quot;&quot; name=&quot;ebba8eb4-8af3-42cd-a7e2-2716654f99e5&quot; align=&quot;center&quot; border=&quot;0&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;!--more--&gt; &lt;p&gt;&lt;strong&gt;You always have some sort of Version Control&lt;/strong&gt;. Some are just better than others.&lt;/p&gt; &lt;p&gt;You just might have not...</description>
+        <pubDate>Thu, 14 May 2015 00:00:00 -0400</pubDate>
+        <link>http://2joephillips.github.io//learning-version-control-important/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io//learning-version-control-important/</guid>
+        
+        
+        <category>uncategorized</category>
         
       </item>
     

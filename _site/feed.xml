@@ -5,41 +5,9 @@
     <description>A blog about lorem ipsum dolor sit amet</description>
     <link>http://2joephillips.github.io//</link>
     <atom:link href="http://2joephillips.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Oct 2015 19:53:23 -0400</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2015 19:53:23 -0400</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2015 19:57:31 -0400</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2015 19:57:31 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Welcome to Jekyll</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt; &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll....</description>
-        <pubDate>Mon, 03 Aug 2015 23:21:35 -0400</pubDate>
-        <link>http://2joephillips.github.io//welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//welcome-to-jekyll/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>web</category>
-        
-        
-        <category>jekyll is awesome</category>
-        
-      </item>
-    
-      <item>
-        <title>How to use</title>
-        <description>&lt;p&gt;This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don’t want to care about frontend stuff.&lt;/p&gt; &lt;p&gt;The Theme features:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Gulp&lt;/li&gt; &lt;li&gt;Stylus (Jeet, Rupture, Kouto Swiss)&lt;/li&gt; &lt;li&gt;Smoothscroll&lt;/li&gt; &lt;li&gt;Live Search&lt;/li&gt; &lt;li&gt;Offcanvas Menu&lt;/li&gt; &lt;li&gt;SVG icons&lt;/li&gt; &lt;li&gt;Shell Script to create posts&lt;/li&gt; &lt;li&gt;Tags page&lt;/li&gt; &lt;li&gt;Series page&lt;/li&gt; &lt;li&gt;About Me page&lt;/li&gt; &lt;li&gt;Feed RSS&lt;/li&gt; &lt;li&gt;Sitemap.xml&lt;/li&gt; &lt;li&gt;Color Customization&lt;/li&gt; &lt;li&gt;Info Customization&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;basic-setup&quot;&gt;Basic Setup&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Install Jekyll&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/willianjusten/will-jekyll-template/fork&quot;&gt;Will Jekyll Template&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Clone the repo you just forked.&lt;/li&gt; &lt;li&gt;Edit &lt;code&gt;_config.yml&lt;/code&gt; to personalize your site.&lt;/li&gt; &lt;li&gt;Check out the sample posts in &lt;code&gt;_posts&lt;/code&gt; to see examples for assigning...</description>
-        <pubDate>Sun, 02 Aug 2015 23:32:44 -0400</pubDate>
-        <link>http://2joephillips.github.io//how-to-use/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//how-to-use/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>template</category>
-        
-        
-        <category>i love jekyll</category>
-        
-      </item>
     
       <item>
         <title>Comic Vine API Examples &amp;#8230;.. Part 2</title>
@@ -142,6 +110,32 @@
         
         
         <category>uncategorized</category>
+        
+      </item>
+    
+      <item>
+        <title>Does Conway&amp;#8217;s Law effect the way your business designs systems?</title>
+        <description>&lt;p&gt;I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.&lt;/p&gt; &lt;p&gt;Conway’s Law. The following link is an &lt;a href=&quot;http://haacked.com/archive/2013/05/13/applying-conways-law.aspx&quot;&gt;article on Conway’s Law&lt;/a&gt; and the source for most of this post.&lt;/p&gt; &lt;p&gt;The &lt;a href=&quot;http://www.melconway.com/Home/Conways_Law.html&quot;&gt;Conway’s Law&lt;/a&gt; comes from Melvin Conway, and it states:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since I am a visual person, the &lt;a href=&quot;http://www.bonkersworld.net/organizational-charts/&quot;&gt;Manu Cornet’s visual interpretation&lt;/a&gt; of this law helps...</description>
+        <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
+        <link>http://2joephillips.github.io//conways-law/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io//conways-law/</guid>
+        
+        
+        <category>design</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Create A Plan before Automating&amp;#8230; Importance of Project Management</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Too many times, I see areas or teams wanting to reduce the time creating a widget or developing a single touch solution for a very manual data entry. But, the downside is, is the first thing they want to do is &lt;i&gt;implement&lt;/i&gt; the automation before they understand the full process as been vetted out. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;To be efficient, we need to initiate a project, plan and design a process, execute it, monitor, and control (repeat when necessary), and close the project. This will lead to creating more widgets, reduce humane resources,...</description>
+        <pubDate>Sat, 09 May 2015 00:00:00 -0400</pubDate>
+        <link>http://2joephillips.github.io//create-a-plan-before-automating-importance-of-project-management/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io//create-a-plan-before-automating-importance-of-project-management/</guid>
+        
+        
+        <category>project management</category>
         
       </item>
     

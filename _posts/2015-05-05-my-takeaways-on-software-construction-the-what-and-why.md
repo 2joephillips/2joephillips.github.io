@@ -19,10 +19,10 @@ Software Construction is a disciple that covers the creation of working, meaning
   * **Construction Planning**
   * Software Architecture, or high level design
   * **Detailed design**
-  * ***Coding and debugging***
-  * ***Unit testing***
-  * ***Integration testing***
-  * ***Integration***
+  * **Coding and debugging**
+  * **Unit testing**
+  * **Integration testing**
+  * **Integration**
   * System testing
   * Corrective maintenance
 

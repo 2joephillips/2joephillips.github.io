@@ -1,7 +1,7 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://2joephillips.github.io/" # the base hostname & protocol for your site 
+url: "http://2joephillips.github.io" # the base hostname & protocol for your site 
 
 # User settings
 username: Joseph E Phillips
@@ -11,7 +11,7 @@ email: joseph@josephephillips.com
 twitter_username: 2joephillips
 github_username:  2joephillips
 gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+disqus_username: 2joephillipsgithubio
 
 # Build settings
 markdown: kramdown
@@ -31,6 +31,8 @@ compress_html:
 links:
   - title: Home
     url: /
+  - title: Blog
+    url: /blog
   - title: Series
     url: /series
   - title: Tags

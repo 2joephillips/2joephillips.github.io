@@ -1,6 +1,5 @@
 ---
 title: 'Create A Plan before Automating&#8230; Importance of Project Management'
-author: 2joes
 layout: post
 permalink: /create-a-plan-before-automating-importance-of-project-management/
 categories:

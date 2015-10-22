@@ -1,6 +1,5 @@
 ---
 title: Code Kata + today = Kataday!
-author: 2joes
 layout: post
 permalink: /code-kata-today-kataday/
 categories:

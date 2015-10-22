@@ -1,6 +1,5 @@
 ---
 title: 'Kataday &#8230; Turkey Countdown'
-author: 2joes
 layout: post
 permalink: /kataday-turkey-countdown/
 categories:

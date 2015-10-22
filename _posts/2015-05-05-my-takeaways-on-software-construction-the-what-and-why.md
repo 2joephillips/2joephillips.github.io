@@ -1,6 +1,5 @@
 ---
 title: 'My Takeaways on Software Construction &#8211; The What and Why'
-author: 2joes
 layout: post
 permalink: /my-takeaways-on-software-construction-the-what-and-why/
 categories:

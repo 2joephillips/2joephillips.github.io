@@ -1,6 +1,5 @@
 ---
 title: Transforming your code from Red to Green by always failing first.
-author: 2joes
 layout: post
 permalink: /transforming-your-code-from-red-to-green-by-always-failing-first/
 categories:

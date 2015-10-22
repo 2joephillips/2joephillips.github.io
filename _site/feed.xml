@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-21T22:52:43-04:00</updated>
+<updated>2015-10-21T22:56:06-04:00</updated>
 <id>/</id>
 <author>
   <name>Joseph E Phillips</name>
@@ -22,9 +22,9 @@
   <published>2015-06-23T00:00:00-04:00</published>
   <updated>2015-06-23T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Following up on &lt;a href=&quot;http://josephephillips.com/how-to-use-comic-vine-api-part-1/&quot; target=&quot;_blank&quot;&gt;Part 1&lt;/a&gt;, this is my series on learning how to use &lt;a href=&quot;http://www.comicvine.com/api/&quot; target=&quot;_blank&quot;&gt;Comic Vine’s API&lt;/a&gt;. In the first post, I talked about basic API set-up, obtaining your &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;own API Key&lt;/a&gt;, making basic API calls, sorting the data returned, and limiting fields returned using the filed list. T&lt;/p&gt;
@@ -322,9 +322,9 @@
   <published>2015-06-05T00:00:00-04:00</published>
   <updated>2015-06-05T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I have been using Sublime Text 2 for so long I got comfortable with it, and it is my favorite text editor. I knew there was a new version, but I never crossed over.  So, I upgraded and I have been using it. I am going to compile  a couple quick hit items for setting up Sublime Text 3&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -455,9 +455,9 @@
   <published>2015-05-26T00:00:00-04:00</published>
   <updated>2015-05-26T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.&lt;/p&gt;
@@ -722,9 +722,9 @@ I think this is a good start, we will dive next time into filters&amp;#8230;
   <published>2015-05-22T00:00:00-04:00</published>
   <updated>2015-05-22T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;For my last day of KataDay, I thought would continue on my TDD Kata’s and decided to do, &lt;a href=&quot;http://osherove.com/tdd-kata-1/&quot;&gt;Roy Osherove’s String Calculator&lt;/a&gt;.&lt;/p&gt;
@@ -903,9 +903,9 @@ namespace KataDay_3_StringCalculator
   <published>2015-05-21T00:00:00-04:00</published>
   <updated>2015-05-21T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;In honor of one of my favorite countdowns, &lt;a href=&quot;http://www.youtube.com/watch?v=tqpPFT-F-bs&quot;&gt;Slapsgiving&lt;/a&gt;, we will do a modified NASA Countdown, but call it Turkey Countdown for today’s KataDay and add a splash of &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot; target=&quot;_blank&quot;&gt;TDD &lt;/a&gt;for extra effort.&lt;/p&gt;
@@ -1024,9 +1024,9 @@ namespace TurkeyDayCountdown
   <published>2015-05-20T00:00:00-04:00</published>
   <updated>2015-05-20T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;The whole premise of KataDays are to take simple problems, and use them as a learning experience to improve my coding/algorithm/critical thinking. SO, to make make today interesting, I found 5 simple problems, at the end of this post , and I am giving my self 5 minutes per problem to solve each one….&lt;/p&gt;
@@ -1115,9 +1115,9 @@ Write a program that reads in a number of cents. The program will write out the 
   <published>2015-05-19T00:00:00-04:00</published>
   <updated>2015-05-19T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I originally heard of Dave Thomas’ &lt;a href=&quot;http://codekata.pragprog.com/&quot;&gt;Code Kata&lt;/a&gt; months ago. The thought behind Code Kata is to take simple problems, and use them as a learning experience to improve ones coding/algorithm/critical thinking. At the time, I thought it would be nice idea to do, but I did not have the drive to actually proceed with doing any. Jump forward, and I have decided to revisit this subject. I hope this week is to do 5 days of Code Kata and post my experiences here. Aftwards, I will do these little Code Kata’s any day during the week. Then share what I have learned. Hence, today is my first Kataday! (&lt;em&gt;Stop Laughing! I think it is cool!&lt;/em&gt;) In most cases, the solution will not be the best,but it is just what I came up with to solve the Kata&lt;/p&gt;
@@ -1160,9 +1160,9 @@ namespace KataDay
   <published>2015-05-14T00:00:00-04:00</published>
   <updated>2015-05-14T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?&lt;/p&gt;
@@ -1319,9 +1319,9 @@ namespace KataDay
   <published>2015-05-12T00:00:00-04:00</published>
   <updated>2015-05-12T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.&lt;/p&gt;
@@ -1359,9 +1359,9 @@ namespace KataDay
   <published>2015-05-09T00:00:00-04:00</published>
   <updated>2015-05-09T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Too many times, I see areas or teams wanting to reduce the time creating a widget or developing a single touch solution for a very manual data entry. But, the downside is, is the first thing they want to do is &lt;i&gt;implement&lt;/i&gt; the automation before they understand the full process as been vetted out. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -1401,9 +1401,9 @@ namespace KataDay
   <published>2015-05-06T00:00:00-04:00</published>
   <updated>2015-05-06T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;em&gt;My Takeaways,&lt;/em&gt; are a collection of information and concepts that I learn through books, programming, and work experiences. In some cases these posts will be just my personal notes. While they may not give you the audience much pleasure in reading, they will serve as my digital resource library.&lt;/p&gt;
@@ -1480,9 +1480,9 @@ namespace KataDay
   <published>2015-05-05T00:00:00-04:00</published>
   <updated>2015-05-05T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;em&gt;My Takeaways,&lt;/em&gt; are a collection of information and concepts that I learn through books, programming, and work experiences. In some cases these posts will be just my personal notes. While they may not give you the audience much pleasure in reading, they will serve as my digital resource library.&lt;/p&gt;
@@ -1571,9 +1571,9 @@ namespace KataDay
   <published>2015-05-01T00:00:00-04:00</published>
   <updated>2015-05-01T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;img class=&quot;alignright  wp-image-510&quot; src=&quot;/assets/img/tdd_flow1.gif&quot; alt=&quot;tdd_flow[1]&quot; data-recalc-dims=&quot;1&quot; /&gt;I was working through &lt;a href=&quot;http://www.stewshack.com/bowlinggame/gutterball&quot;&gt;Bowling Game Kata &lt;/a&gt; trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: &lt;a href=&quot;http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html&quot;&gt;Uncle Bob’s Transformation Priority Premise.&lt;/a&gt;&lt;/p&gt;
@@ -1627,9 +1627,9 @@ namespace KataDay
   <published>2015-04-23T00:00:00-04:00</published>
   <updated>2015-04-23T00:00:00-04:00</updated>
   <author>
-    <name></name>
+    <name>Joseph E Phillips</name>
     <uri></uri>
-    
+    <email>joseph@josephephillips.com</email>
   </author>
   <content type="html">
     &lt;p&gt;I ran across this story. &lt;a href=&quot;http://www.forbes.com/sites/jacobmorgan/2014/09/29/how-this-company-is-trying-to-eradicate-email/&quot;&gt;How This Company Is Trying To Eradicate Email&lt;/a&gt; It got me thinking about &lt;em&gt;zeroing out our inboxes and reducing time spent on email&lt;/em&gt;. Could you imagine, clearing out your inbox daily like home mailboxes!?!&lt;/p&gt;

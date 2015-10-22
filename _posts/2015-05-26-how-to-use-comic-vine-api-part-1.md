@@ -1,6 +1,5 @@
 ---
 title: 'How to use Comic Vine API &#8211; Part 1'
-author: 2joes
 layout: post
 permalink: /how-to-use-comic-vine-api-part-1/
 categories:

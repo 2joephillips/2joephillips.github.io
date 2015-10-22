@@ -1,6 +1,5 @@
 ---
 title: 'My Takeaways on Version Control &#8211; Why is it important?'
-author: 2joes
 layout: post
 permalink: /my-takeaways-on-version-control-important/
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Comic Vine API Examples &#8230;.. Part 2'
-author: 2joes
 layout: post
 permalink: /comic_vine_api_examples_part2/
 categories:

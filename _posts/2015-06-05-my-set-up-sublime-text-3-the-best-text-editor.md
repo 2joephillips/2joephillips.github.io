@@ -1,6 +1,5 @@
 ---
 title: My Set-up Sublime Text 3 the Best Text Editor
-author: 2joes
 layout: post
 permalink: /my-set-up-sublime-text-3-the-best-text-editor/
 categories:

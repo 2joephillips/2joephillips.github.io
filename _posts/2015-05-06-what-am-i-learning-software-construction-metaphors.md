@@ -1,6 +1,5 @@
 ---
 title: My Takeaways on Understanding Software Construction Metaphors
-author: 2joes
 layout: post
 permalink: /what-am-i-learning-software-construction-metaphors/
 categories:

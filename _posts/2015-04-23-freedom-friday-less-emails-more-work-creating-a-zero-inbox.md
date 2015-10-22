@@ -1,6 +1,5 @@
 ---
 title: 'Freedom Friday!   Less Emails. More Work&#8230;  Creating a Zero Inbox.'
-author: 2joes
 layout: post
 permalink: /freedom-friday-less-emails-more-work-creating-a-zero-inbox/
 categories:

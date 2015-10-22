@@ -1,6 +1,5 @@
 ---
 title: 'KataDay &#8211; StringCalculator'
-author: 2joes
 layout: post
 permalink: /kataday_stringcalculator/
 categories:

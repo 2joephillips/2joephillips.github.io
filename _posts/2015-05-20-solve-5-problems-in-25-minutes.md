@@ -1,6 +1,5 @@
 ---
 title: Solve 5 problems in 25 minutes
-author: 2joes
 layout: post
 permalink: /solve-5-problems-in-25-minutes/
 categories:

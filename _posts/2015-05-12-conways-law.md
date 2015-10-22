@@ -1,6 +1,5 @@
 ---
 title: 'Does Conway&#8217;s Law effect the way your business designs systems?'
-author: 2joes
 layout: post
 permalink: /conways-law/
 categories:

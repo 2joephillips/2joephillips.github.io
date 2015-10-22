@@ -1,6 +1,5 @@
 ---
 title: Portfolio
-author: 2joes
 layout: page
 published: false
 ---

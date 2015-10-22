@@ -1,137 +1,2071 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <description>A blog about lorem ipsum dolor sit amet</description>
-    <link>http://2joephillips.github.io/</link>
-    <atom:link href="http://2joephillips.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2015 20:44:42 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2015 20:44:42 -0400</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Joseph E Phillips</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2015-10-21T22:12:00-04:00</updated>
+<id>/</id>
+<author>
+  <name>Joseph E Phillips</name>
+  <uri>/</uri>
+  <email>joseph@josephephillips.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Comic Vine API Examples &#8230;.. Part 2]]></title>
+  <link rel="alternate" type="text/html" href="/comic_vine_api_examples_part2/" />
+  <id>/comic_vine_api_examples_part2</id>
+  <published>2015-06-23T00:00:00-04:00</published>
+  <updated>2015-06-23T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
     
-      <item>
-        <title>Comic Vine API Examples &amp;#8230;.. Part 2</title>
-        <description>&lt;p&gt;Following up on &lt;a href=&quot;http://josephephillips.com/how-to-use-comic-vine-api-part-1/&quot; target=&quot;_blank&quot;&gt;Part 1&lt;/a&gt;, this is my series on learning how to use &lt;a href=&quot;http://www.comicvine.com/api/&quot; target=&quot;_blank&quot;&gt;Comic Vine’s API&lt;/a&gt;. In the first post, I talked about basic API set-up, obtaining your &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;own API Key&lt;/a&gt;, making basic API calls, sorting the data returned, and limiting fields returned using the filed list. T&lt;/p&gt; &lt;p&gt;Below is the information that will help you understand these posts.&lt;/p&gt; &lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id1830&quot; tabindex=&quot;0&quot; title=&quot;Formating and Resource information&quot;&gt;Formating and Resource information&lt;/span&gt;&lt;/p&gt; &lt;div id=&quot;target-id1830&quot; class=&quot;collapseomatic_content &quot;&gt; &lt;h3&gt; Abbreviations &lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;em&gt;&lt;strong&gt;YOUR_APIKEY&lt;/strong&gt;&lt;/em&gt; = Your Personal API Key. Can be acquired &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. &lt;/li&gt;...</description>
-        <pubDate>Tue, 23 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/comic_vine_api_examples_part2/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/comic_vine_api_examples_part2/</guid>
-        
-        
-        <category>api calls</category>
-        
-      </item>
+  </author>
+  <content type="html">
+    &lt;p&gt;Following up on &lt;a href=&quot;http://josephephillips.com/how-to-use-comic-vine-api-part-1/&quot; target=&quot;_blank&quot;&gt;Part 1&lt;/a&gt;, this is my series on learning how to use &lt;a href=&quot;http://www.comicvine.com/api/&quot; target=&quot;_blank&quot;&gt;Comic Vine’s API&lt;/a&gt;. In the first post, I talked about basic API set-up, obtaining your &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;own API Key&lt;/a&gt;, making basic API calls, sorting the data returned, and limiting fields returned using the filed list. T&lt;/p&gt;
+
+&lt;p&gt;Below is the information that will help you understand these posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id1830&quot; tabindex=&quot;0&quot; title=&quot;Formating and Resource information&quot;&gt;Formating and Resource information&lt;/span&gt;&lt;/p&gt;
+
+&lt;div id=&quot;target-id1830&quot; class=&quot;collapseomatic_content &quot;&gt;
+  &lt;h3&gt;
+    Abbreviations
+  &lt;/h3&gt;
+  
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;em&gt;&lt;strong&gt;YOUR_APIKEY&lt;/strong&gt;&lt;/em&gt; = Your Personal API Key. Can be acquired &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;em&gt;&lt;strong&gt;URL&lt;/strong&gt;&lt;/em&gt; = The Comic Vine API address is &lt;a href=&quot;http://www.comicvine.com/api&quot; target=&quot;_blank&quot;&gt;www.comicvine.com/api&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;&lt;resources&gt; = The Comic Vine Resources, sample below
     
-      <item>
-        <title>My Set-up Sublime Text 3 the Best Text Editor</title>
-        <description>&lt;p&gt;I have been using Sublime Text 2 for so long I got comfortable with it, and it is my favorite text editor. I knew there was a new version, but I never crossed over.  So, I upgraded and I have been using it. I am going to compile  a couple quick hit items for setting up Sublime Text 3&lt;em&gt;.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;img-classalignleft-wp-image-572-size-full-srchttpi1wpcomjosephephillipscomwp-contentuploads201506sublime-logojpgfit2002c200-altsublime-logo-data-recalc-dims1-1basic-installation&quot;&gt;&lt;a href=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg&quot;&gt;&lt;img class=&quot;alignleft wp-image-572 size-full&quot; src=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg?fit=200%2C200&quot; alt=&quot;sublime-logo&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Basic Installation&lt;/h2&gt; &lt;p&gt;Use one of the two links, below to access the download page. From there, it is SIMPLE.&lt;/p&gt; &lt;p&gt;Sublime Tex 3 &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;Download Page&lt;/a&gt;&lt;/p&gt; &lt;p&gt;As a reminder Sublime Text (either version) has a...</description>
-        <pubDate>Fri, 05 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/my-set-up-sublime-text-3-the-best-text-editor/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/my-set-up-sublime-text-3-the-best-text-editor/</guid>
-        
-        
-        <category>programming tools</category>
-        
-      </item>
+    &lt;li&gt;
+      &lt;strong&gt;&lt;field_list&gt; =  Any field within the resource being called
     
-      <item>
-        <title>How to use Comic Vine API &amp;#8211; Part 1</title>
-        <description>&lt;p&gt;I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.&lt;/p&gt; &lt;p&gt;Luckily, &lt;a href=&quot;http://comicvine.com&quot; target=&quot;_blank&quot;&gt;Comic Vine&lt;/a&gt; has more metadata than I could ever need. Plus, they have a free &lt;a href=&quot;http://comicvine.com/api&quot; target=&quot;_blank&quot;&gt;Web API &lt;/a&gt;that gives access to all their data, which is a perfect solution for what I am trying to accomplish.&lt;/p&gt; &lt;p&gt;The bad news, I am a little rusty on Web API, so I needed to find some Comic Vine API Examples to help me get started. My first idea was...</description>
-        <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/how-to-use-comic-vine-api-part-1/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/how-to-use-comic-vine-api-part-1/</guid>
-        
-        
-        <category>api calls</category>
-        
-      </item>
+  
+  
+  &lt;h3&gt;
+    Sample of API Resources
+  &lt;/h3&gt;
+  
+  &lt;blockquote&gt;
+    &lt;p&gt;
+      Each resource as a plural and singular component. In most API calls, you will use the plural to have the call return a list of  the singular.
+    &lt;/p&gt;
+  &lt;/blockquote&gt;
+  
+  &lt;p align=&quot;left&quot;&gt;
+    &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-2&quot; target=&quot;_blank&quot;&gt;Character&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-3&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;         &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-10&quot; target=&quot;_blank&quot;&gt;Issue&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-11&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;
+  &lt;/p&gt;
+  
+  &lt;p align=&quot;left&quot;&gt;
+    &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-26&quot; target=&quot;_blank&quot;&gt;Publisher&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-27&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;          &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-28&quot; target=&quot;_blank&quot;&gt;Series&lt;/a&gt;/&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-29&quot; target=&quot;_blank&quot;&gt;Series_List&lt;/a&gt;
+  &lt;/p&gt;
+  
+  &lt;p align=&quot;left&quot;&gt;
+    &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-33&quot; target=&quot;_blank&quot;&gt;Team&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-34&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;                 &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-40&quot; target=&quot;_blank&quot;&gt;Volume&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-41&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;
+  &lt;/p&gt;
+  
+  &lt;p align=&quot;left&quot;&gt;
+    &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-30&quot; target=&quot;_blank&quot;&gt;Search&lt;/a&gt;
+  &lt;/p&gt;
+  
+  &lt;p align=&quot;left&quot;&gt;
+     
     
-      <item>
-        <title>KataDay &amp;#8211; StringCalculator</title>
-        <description>&lt;p&gt;For my last day of KataDay, I thought would continue on my TDD Kata’s and decided to do, &lt;a href=&quot;http://osherove.com/tdd-kata-1/&quot;&gt;Roy Osherove’s String Calculator&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;This is a kata that allows you work through the steps of refactoring and testing first.&lt;/p&gt; &lt;h3 id=&quot;instructions-from-roy8217s-kata&quot;&gt;Instructions from Roy’s Kata:&lt;/h3&gt; &lt;p&gt;Before you start:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Try not to read ahead.&lt;/li&gt; &lt;li&gt;Do one task at a time. The trick is to learn to work incrementally.&lt;/li&gt; &lt;li&gt;Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata.&lt;/li&gt; &lt;/ul&gt; &lt;!--more--&gt; &lt;p&gt;String Calculator&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Create a simple String calculator with a method int...</description>
-        <pubDate>Fri, 22 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/kataday_stringcalculator/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/kataday_stringcalculator/</guid>
-        
-        
-        <category>kataday</category>
-        
-        <category>test driven development</category>
-        
-      </item>
+    &lt;h3 align=&quot;left&quot;&gt;
+      Okay, finally, some Comic Vine API Examples…..
+    &lt;/h3&gt;
     
-      <item>
-        <title>Kataday &amp;#8230; Turkey Countdown</title>
-        <description>&lt;p&gt;In honor of one of my favorite countdowns, &lt;a href=&quot;http://www.youtube.com/watch?v=tqpPFT-F-bs&quot;&gt;Slapsgiving&lt;/a&gt;, we will do a modified NASA Countdown, but call it Turkey Countdown for today’s KataDay and add a splash of &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot; target=&quot;_blank&quot;&gt;TDD &lt;/a&gt;for extra effort.&lt;/p&gt; &lt;h2 id=&quot;code-kata&quot;&gt;&lt;strong&gt;Code Kata:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Momma wants to fry yet another turkey. As the official fryer of the turkey, you are very excited. So excited that about this responsibility you decide to create your one timer.&lt;/p&gt; &lt;p&gt;But &lt;strong&gt;the frying is only minutes away&lt;/strong&gt;. You have to create the timer in 5 minutes – or the turkey will be over cooked and lost!&lt;!--more--&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The turkey counter  will tell you where to start – then count to...</description>
-        <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/kataday-turkey-countdown/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/kataday-turkey-countdown/</guid>
-        
-        
-        <category>kataday</category>
-        
-        <category>test driven development</category>
-        
-      </item>
+    &lt;p align=&quot;left&quot;&gt;
+      &lt;strong&gt;Lets start with a basic call with a filter.&lt;/strong&gt;
+    &lt;/p&gt;
     
-      <item>
-        <title>Solve 5 problems in 25 minutes</title>
-        <description>&lt;p&gt;The whole premise of KataDays are to take simple problems, and use them as a learning experience to improve my coding/algorithm/critical thinking. SO, to make make today interesting, I found 5 simple problems, at the end of this post , and I am giving my self 5 minutes per problem to solve each one….&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;Overall, this is what a great exercise, it really forced me to think on my feet. While the exercises were inherently easy, they each had their little nuances. I suggest do these Katas with one or more programmers and see what variances exists.  For example, one programmer was able to answer Exercise 5 in &lt;strong&gt;ONE...</description>
-        <pubDate>Wed, 20 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/solve-5-problems-in-25-minutes/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/solve-5-problems-in-25-minutes/</guid>
-        
-        
-        <category>kataday</category>
-        
-      </item>
+    &lt;p align=&quot;center&quot;&gt;
+      &lt;strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY&amp;amp;filter=&lt;field_list&gt;: (filter statement)
     
-      <item>
-        <title>Code Kata + today = Kataday!</title>
-        <description>&lt;p&gt;I originally heard of Dave Thomas’ &lt;a href=&quot;http://codekata.pragprog.com/&quot;&gt;Code Kata&lt;/a&gt; months ago. The thought behind Code Kata is to take simple problems, and use them as a learning experience to improve ones coding/algorithm/critical thinking. At the time, I thought it would be nice idea to do, but I did not have the drive to actually proceed with doing any. Jump forward, and I have decided to revisit this subject. I hope this week is to do 5 days of Code Kata and post my experiences here. Aftwards, I will do these little Code Kata’s any day during the week. Then share what I have learned....</description>
-        <pubDate>Tue, 19 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/code-kata-today-kataday/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/code-kata-today-kataday/</guid>
-        
-        
-        <category>kataday</category>
-        
-      </item>
     
-      <item>
-        <title>My Takeaways on Version Control &amp;#8211; Why is it important?</title>
-        <description>&lt;p&gt;Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?&lt;/p&gt; &lt;p&gt;It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad’s post &lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;A Visual Guide to Version Control&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;&lt;img class=&quot;aligncenter&quot; src=&quot;http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350&quot; alt=&quot;&quot; name=&quot;ebba8eb4-8af3-42cd-a7e2-2716654f99e5&quot; align=&quot;center&quot; border=&quot;0&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;!--more--&gt; &lt;p&gt;&lt;strong&gt;You always have some sort of Version Control&lt;/strong&gt;. Some are just better than others.&lt;/p&gt; &lt;p&gt;You just might have not...</description>
-        <pubDate>Thu, 14 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/my-takeaways-on-version-control-important/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/my-takeaways-on-version-control-important/</guid>
-        
-        
-        <category>my takeaways</category>
-        
-      </item>
+    &lt;p align=&quot;left&quot;&gt;
+      By design, Comic Vine does not use all all fields in a resource to filter data. It is important to review the &lt;a href=&quot;http://www.comicvine.com/api/documentation&quot; target=&quot;_blank&quot;&gt;API resources&lt;/a&gt; to see which fields can be used.
+    &lt;/p&gt;
     
-      <item>
-        <title>Does Conway&amp;#8217;s Law effect the way your business designs systems?</title>
-        <description>&lt;p&gt;I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.&lt;/p&gt; &lt;p&gt;Conway’s Law. The following link is an &lt;a href=&quot;http://haacked.com/archive/2013/05/13/applying-conways-law.aspx&quot;&gt;article on Conway’s Law&lt;/a&gt; and the source for most of this post.&lt;/p&gt; &lt;p&gt;The &lt;a href=&quot;http://www.melconway.com/Home/Conways_Law.html&quot;&gt;Conway’s Law&lt;/a&gt; comes from Melvin Conway, and it states:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since I am a visual person, the &lt;a href=&quot;http://www.bonkersworld.net/organizational-charts/&quot;&gt;Manu Cornet’s visual interpretation&lt;/a&gt; of this law helps...</description>
-        <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/conways-law/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/conways-law/</guid>
-        
-        
-        <category>design</category>
-        
-      </item>
+    &lt;p align=&quot;left&quot;&gt;
+      Now&lt;strong&gt;, &lt;/strong&gt;lets create a call to start pulling back some characters, but&lt;strong&gt; lets filter the data to return just the females.&lt;/strong&gt;
+    &lt;/p&gt;
     
-      <item>
-        <title>Create A Plan before Automating&amp;#8230; Importance of Project Management</title>
-        <description>&lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Too many times, I see areas or teams wanting to reduce the time creating a widget or developing a single touch solution for a very manual data entry. But, the downside is, is the first thing they want to do is &lt;i&gt;implement&lt;/i&gt; the automation before they understand the full process as been vetted out. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;To be efficient, we need to initiate a project, plan and design a process, execute it, monitor, and control (repeat when necessary), and close the project. This will lead to creating more widgets, reduce humane resources,...</description>
-        <pubDate>Sat, 09 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io/create-a-plan-before-automating-importance-of-project-management/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io/create-a-plan-before-automating-importance-of-project-management/</guid>
-        
-        
-        <category>project management</category>
-        
-      </item>
+    &lt;p align=&quot;center&quot;&gt;
+      &lt;strong&gt;URL/characters/?api_key=YOUR_APIKEY&amp;amp;filter=gender:female&lt;/strong&gt;
+    &lt;/p&gt;
     
-  </channel>
-</rss>
+    &lt;p&gt;
+      Our first character returned from the above call is: &lt;em&gt;&lt;strong&gt;&lt;a href=&quot;http://www.comicvine.com/dream-girl/4005-1254/&quot; target=&quot;_blank&quot;&gt;Dream Girl&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;img class=&quot;alignleft&quot; style=&quot;display: inline;&quot; src=&quot;http://i1.wp.com/static.comicvine.com/uploads/scale_medium/2/29837/2422799-dreamgirl_lsh_vol7_04.jpg?resize=179%2C333&quot; alt=&quot;&quot; align=&quot;right&quot; data-recalc-dims=&quot;1&quot; /&gt;
+    &lt;/p&gt;
+    
+    &lt;pre class=&quot;lang:default decode:true&quot;&gt;&amp;lt;response&amp;gt;
+    &amp;lt;error&amp;gt;
+    &amp;lt;![CDATA[ OK ]]&amp;gt;
+    &amp;lt;/error&amp;gt;
+    &amp;lt;limit&amp;gt;100&amp;lt;/limit&amp;gt;
+    &amp;lt;offset&amp;gt;0&amp;lt;/offset&amp;gt;
+    &amp;lt;number_of_page_results&amp;gt;100&amp;lt;/number_of_page_results&amp;gt;
+    &amp;lt;number_of_total_results&amp;gt;18430&amp;lt;/number_of_total_results&amp;gt;
+    &amp;lt;status_code&amp;gt;1&amp;lt;/status_code&amp;gt;
+    &amp;lt;results&amp;gt;
+        &amp;lt;character&amp;gt;
+            &amp;lt;aliases&amp;gt;...&amp;lt;/aliases&amp;gt;
+            &amp;lt;api_detail_url&amp;gt;...&amp;lt;/api_detail_url&amp;gt;
+            &amp;lt;birth/&amp;gt;     &amp;lt;count_of_issue_appearances&amp;gt;341&amp;lt;/count_of_issue_appearances&amp;gt;
+            &amp;lt;date_added&amp;gt;2008-06-06 11:27:38&amp;lt;/date_added&amp;gt;
+            &amp;lt;date_last_updated&amp;gt;2013-03-20 20:06:16&amp;lt;/date_last_updated&amp;gt;
+            &amp;lt;deck&amp;gt;...&amp;lt;/deck&amp;gt;
+            &amp;lt;description&amp;gt;...&amp;lt;/description&amp;gt;
+            &amp;lt;first_appeared_in_issue&amp;gt;...&amp;lt;/first_appeared_in_issue&amp;gt;
+            &amp;lt;gender&amp;gt;2&amp;lt;/gender&amp;gt;
+            &amp;lt;id&amp;gt;1254&amp;lt;/id&amp;gt;
+            &amp;lt;image&amp;gt;...&amp;lt;/image&amp;gt;
+            &amp;lt;name&amp;gt;
+                &amp;lt;![CDATA[ Dream Girl ]]&amp;gt;
+            &amp;lt;/name&amp;gt;&lt;/pre&gt;
+    
+    &lt;p&gt;
+      &amp;nbsp;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      To improve this call, &lt;strong&gt;lets add structure to the previous call  with a &lt;em&gt;sort&lt;/em&gt;, &lt;/strong&gt;the format for this is:
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;center&quot;&gt;
+      &lt;strong&gt; &lt;/strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY&amp;amp;filter=&lt;field_list&gt;: (filter statement)&lt;strong&gt;&amp;amp;sort=&lt;field_list&gt;: (direction)
+    
+    
+    &lt;p&gt;
+      The below call is an example for looking for males and sort them descending by name:
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;center&quot;&gt;
+      URL/characters/?api_key=YOUR_APIKEY&amp;amp;filter=gender:male&lt;strong&gt;&amp;amp;sort=name: desc&lt;/strong&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      This time our first response is &lt;a href=&quot;http://www.comicvine.com/captain-blaze-steel/4005-90478/&quot; target=&quot;_blank&quot;&gt;Captain Blaze Steel&lt;/a&gt;!
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;img class=&quot;alignleft&quot; style=&quot;display: inline;&quot; src=&quot;http://i1.wp.com/static.comicvine.com/uploads/scale_medium/6/69951/3135116-blaze+steel.jpg?resize=220%2C286&quot; alt=&quot;&quot; align=&quot;right&quot; data-recalc-dims=&quot;1&quot; /&gt;
+    &lt;/p&gt;
+    
+    &lt;pre class=&quot;lang:default decode:true&quot;&gt;&amp;lt;results&amp;gt;
+    &amp;lt;character&amp;gt;
+        &amp;lt;aliases/&amp;gt;
+        &amp;lt;api_detail_url&amp;gt;...&amp;lt;/api_detail_url&amp;gt;
+        &amp;lt;birth/&amp;gt;
+        &amp;lt;count_of_issue_appearances&amp;gt;0&amp;lt;/count_of_issue_appearances&amp;gt;
+        &amp;lt;date_added&amp;gt;2013-06-27 00:32:43&amp;lt;/date_added&amp;gt;
+        &amp;lt;date_last_updated&amp;gt;2013-06-27 00:56:09&amp;lt;/date_last_updated&amp;gt;
+        &amp;lt;deck/&amp;gt;
+        &amp;lt;description/&amp;gt;
+        &amp;lt;first_appeared_in_issue&amp;gt;...&amp;lt;/first_appeared_in_issue&amp;gt;
+        &amp;lt;gender&amp;gt;1&amp;lt;/gender&amp;gt;
+        &amp;lt;id&amp;gt;90478&amp;lt;/id&amp;gt;
+        &amp;lt;image&amp;gt;...&amp;lt;/image&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ Captain Blaze Steel ]]&amp;gt;
+        &amp;lt;/name&amp;gt;&lt;/pre&gt;
+    
+    &lt;p&gt;
+      &lt;strong&gt;But, let’s improve this call with an additional filter. &lt;/strong&gt;There are two make this call:
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;left&quot;&gt;
+      1. Adding an additional &lt;strong&gt;&amp;amp;filter=&lt;field_list&gt;: (filter statement)
+    
+    
+    &lt;p align=&quot;center&quot;&gt;
+      ….&lt;strong&gt;&amp;amp;filter=&lt;field_list&gt;: (filter statement)&amp;amp;filter=&lt;field_list&gt;: (filter statement)
+    
+    
+    &lt;p align=&quot;center&quot;&gt;
+      or
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;left&quot;&gt;
+      2. Placing commas “,” between the filters
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;center&quot;&gt;
+      ….&lt;strong&gt;&amp;amp;filter=&lt;field_list&gt;: (filter statement),&lt;field_list&gt;: (filter statement)
+    
+    
+    &lt;p align=&quot;left&quot;&gt;
+      So, lets see if we can find my favorite character &lt;a href=&quot;http://www.comicvine.com/hawkeye/4005-1475/&quot; target=&quot;_blank&quot;&gt;Hawkeye&lt;/a&gt;. We will use the below call:
+    &lt;/p&gt;
+    
+    &lt;p align=&quot;center&quot;&gt;
+      URL/characters/?api_key=YOUR_APIKEY&lt;strong&gt;&amp;amp;filter=gender:male&amp;amp;filter=name:hawkeye&lt;/strong&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Yep. It returned Hawkeye…. and &lt;a href=&quot;http://www.comicvine.com/sagittarius-hawkeye-lmd/4005-89494/&quot; target=&quot;_blank&quot;&gt;Sagittarius (Hawkeye LMD)&lt;/a&gt;.  Where did this other Hawkeye come from…. Oh, the &lt;a href=&quot;http://www.comicvine.com/west-coast-avengers-26-zodiac-attack/4000-28820/&quot; target=&quot;_blank&quot;&gt;Zodiac&lt;/a&gt; copy!!!
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;img class=&quot;alignleft&quot; style=&quot;display: inline;&quot; src=&quot;http://i0.wp.com/static.comicvine.com/uploads/scale_medium/8/84205/3051836-copy+of+5-17-2013_002.jpg?resize=194%2C475&quot; alt=&quot;&quot; align=&quot;right&quot; data-recalc-dims=&quot;1&quot; /&gt;
+    &lt;/p&gt;
+    
+    &lt;pre class=&quot;lang:default decode:true&quot;&gt;&amp;lt;response&amp;gt;
+    &amp;lt;error&amp;gt;
+        &amp;lt;![CDATA[ OK ]]&amp;gt;
+    &amp;lt;/error&amp;gt;
+    &amp;lt;limit&amp;gt;100&amp;lt;/limit&amp;gt;
+    &amp;lt;offset&amp;gt;0&amp;lt;/offset&amp;gt;
+    &amp;lt;number_of_page_results&amp;gt;2&amp;lt;/number_of_page_results&amp;gt;
+    &amp;lt;number_of_total_results&amp;gt;2&amp;lt;/number_of_total_results&amp;gt;
+    &amp;lt;status_code&amp;gt;1&amp;lt;/status_code&amp;gt;
+    &amp;lt;results&amp;gt;
+        &amp;lt;character&amp;gt;...&amp;lt;/character&amp;gt;
+        &amp;lt;character&amp;gt;
+            &amp;lt;aliases/&amp;gt;
+            &amp;lt;api_detail_url&amp;gt;...&amp;lt;/api_detail_url&amp;gt;
+            &amp;lt;birth/&amp;gt;
+            &amp;lt;count_of_issue_appearances&amp;gt;4&amp;lt;/count_of_issue_appearances&amp;gt;
+            &amp;lt;date_added&amp;gt;2013-05-17 20:10:07&amp;lt;/date_added&amp;gt;
+            &amp;lt;date_last_updated&amp;gt;2013-05-17 21:49:04&amp;lt;/date_last_updated&amp;gt;
+            &amp;lt;deck&amp;gt;...&amp;lt;/deck&amp;gt;
+            &amp;lt;description&amp;gt;...&amp;lt;/description&amp;gt;
+            &amp;lt;first_appeared_in_issue&amp;gt;...&amp;lt;/first_appeared_in_issue&amp;gt;
+            &amp;lt;gender&amp;gt;1&amp;lt;/gender&amp;gt;
+            &amp;lt;id&amp;gt;89494&amp;lt;/id&amp;gt;
+            &amp;lt;image&amp;gt;...&amp;lt;/image&amp;gt;
+            &amp;lt;name&amp;gt;
+                &amp;lt;![CDATA[ Sagittarius (Hawkeye LMD) ]]&amp;gt;
+            &amp;lt;/name&amp;gt;&lt;/pre&gt;
+    
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        With the previous call returning both Hawkeye and Sagittarius (Hawkeye LMD), this shows that filters are not looking for exact matches. These filters are looking for the given string within the Field_List.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+    
+    &lt;p&gt;
+      &lt;strong&gt;Lastly, lets make a final call to pull back all the “X-Men” volumes with only the name field. &lt;/strong&gt;To do this, we will add a &lt;field_list&gt; to the call to pull back only the name.
+    
+    
+    &lt;p align=&quot;center&quot;&gt;
+      URL/characters/?api_key=YOUR_APIKEY&amp;amp;filter=name: X-men&lt;strong&gt;&amp;amp;field_list=name&lt;/strong&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;img class=&quot;alignleft&quot; style=&quot;display: inline;&quot; src=&quot;http://i2.wp.com/static.comicvine.com/uploads/scale_small/3/31666/3338645-1380300323.jpg?resize=326%2C497&quot; alt=&quot;&quot; align=&quot;right&quot; data-recalc-dims=&quot;1&quot; /&gt;
+    &lt;/p&gt;
+    
+    &lt;pre class=&quot;lang:default decode:true&quot;&gt;&amp;lt;results&amp;gt;
+    &amp;lt;volume&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ The X-Men ]]&amp;gt;
+        &amp;lt;/name&amp;gt;
+    &amp;lt;/volume&amp;gt;
+    &amp;lt;volume&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ Giant-Size X-Men ]]&amp;gt;
+        &amp;lt;/name&amp;gt;
+    &amp;lt;/volume&amp;gt;
+    &amp;lt;volume&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ The Uncanny X-Men ]]&amp;gt;
+        &amp;lt;/name&amp;gt;
+    &amp;lt;/volume&amp;gt;
+    &amp;lt;volume&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ X-Men Classics Starring the X-Men ]]&amp;gt;
+        &amp;lt;/name&amp;gt;
+    &amp;lt;/volume&amp;gt;
+    &amp;lt;volume&amp;gt;
+        &amp;lt;name&amp;gt;
+            &amp;lt;![CDATA[ The X-Men and The Micronauts ]]&amp;gt;
+        &amp;lt;/name&amp;gt;
+    &amp;lt;/volume&amp;gt;&lt;/pre&gt;
+    
+    &lt;p&gt;
+      &amp;nbsp;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      At this point we have covered a lot of the basic components of making API calls Comic Vine’s API. We can Sort, Filter, and limit fields. The next couple posts we will start looking at pagination and maneuvering though all the data instead of just looking at the first response. To do this, we might need to start adding some programming to help with this. Versus, just typing URLs into a browser.
+    &lt;/p&gt;
+&lt;/field_list&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/field_list&gt;&lt;/resource&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/resource&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/resources&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/comic_vine_api_examples_part2/&quot;&gt;Comic Vine API Examples &amp;#8230;.. Part 2&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on June 23, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[My Set-up Sublime Text 3 the Best Text Editor]]></title>
+  <link rel="alternate" type="text/html" href="/my-set-up-sublime-text-3-the-best-text-editor/" />
+  <id>/my-set-up-sublime-text-3-the-best-text-editor</id>
+  <published>2015-06-05T00:00:00-04:00</published>
+  <updated>2015-06-05T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I have been using Sublime Text 2 for so long I got comfortable with it, and it is my favorite text editor. I knew there was a new version, but I never crossed over.  So, I upgraded and I have been using it. I am going to compile  a couple quick hit items for setting up Sublime Text 3&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;img-classalignleft-wp-image-572-size-full-srchttpi1wpcomjosephephillipscomwp-contentuploads201506sublime-logojpgfit2002c200-altsublime-logo-data-recalc-dims1-1basic-installation&quot;&gt;&lt;a href=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg&quot;&gt;&lt;img class=&quot;alignleft wp-image-572 size-full&quot; src=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg?fit=200%2C200&quot; alt=&quot;sublime-logo&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Basic Installation&lt;/h2&gt;
+
+&lt;p&gt;Use one of the two links, below to access the download page. From there, it is SIMPLE.&lt;/p&gt;
+
+&lt;p&gt;Sublime Tex 3 &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;Download Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As a reminder Sublime Text (either version) has a $70.00 license fee. You are able to use it without purchasing, but if you are going to use if for development pay the license. &lt;em&gt;Support the Developers.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-package-control&quot;&gt;Install Package Control&lt;/h2&gt;
+
+&lt;p&gt;Once you have Sublime Text installed, you are going to want to &lt;a href=&quot;Installing Sublime Text 3 is SIMPLE use a link below to head to the download page to install. As an FYI, Sublime Text 3 is currently still in development, so you could use version 2 if you would like something more stable. I just like to use the newest version. Just personal preference. &quot; target=&quot;_blank&quot;&gt;install package control&lt;/a&gt; and &lt;a href=&quot;https://sublime.wbond.net/browse&quot; target=&quot;_blank&quot;&gt;start downloading some packages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The simplest method of installation is through the Sublime Text console. The console is accessed via the shortcut  &lt;kbd&gt;ctrl+&#39;&lt;/kbd&gt; or View &amp;gt; Show Console menu. Once open, paste the appropriate Python code for your version of Sublime Text into the console. Since the code changes with each release you will need to pull it from the &lt;a href=&quot;https://sublime.wbond.net/installation#st2&quot;&gt;Installation Page.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-some-great-packages&quot;&gt;Install Some Great Packages&lt;/h2&gt;
+
+&lt;p&gt;To get started you will need to bring up the Package Control by pressing CMD + SHIFT + P or ALT + SHIFT + P.&lt;/p&gt;
+
+&lt;p&gt;From here you can install, list, and remove packages. For a more comprehensive list of Sublime Text 3 compatible packages &lt;a href=&quot;https://github.com/wbond/sublime_package_control/wiki/Sublime-Text-3-Compatible-Packages&quot; target=&quot;_blank&quot;&gt;visit this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To start installing. Type “Install” then select Package Control: Install Package. You will then be able to search and install packages.&lt;/p&gt;
+
+&lt;h3 id=&quot;below-are-some-of-my-favorites-so-far8230&quot;&gt;Below are some of my favorites so far….&lt;/h3&gt;
+
+&lt;h3 id=&quot;tomorrow-color-schemes4&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Tomorrow%20Color%20Schemes&quot;&gt;TOMORROW COLOR SCHEMES&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I’ve found Tomorrow Night to be my favourite color scheme for editing code for Sublime . Search for &lt;code&gt;Tomorrow Color Schemes&lt;/code&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;After installation the theme should be added to Sublime, and should be accessible through:&lt;/p&gt;
+
+&lt;pre xml:space=&quot;preserve&quot;&gt;&lt;code&gt;    Sublime Text / Preferences… / Color Scheme / Tomorrow Color Schemes&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;sublimelint5&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/sublimelint&quot;&gt; SublimeLint&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Interactive code linting framework for Sublime Text 2 (works with 3).&lt;/p&gt;
+
+&lt;h3 id=&quot;git6&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Git&quot;&gt;GIT&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://josephephillips.com/learning-version-control-important/&quot; title=&quot;Learning Version Control – Why is it important?&quot;&gt;Must have version control,&lt;/a&gt; and this packages integrates my favorite one.&lt;/p&gt;
+
+&lt;h3 id=&quot;emmet8&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/Emmet&quot;&gt;Emmet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Emmet provides you will automatic browser prefixes on CSS properties, a colour gradient generator, a lorem ipsum generator, new keyboard shortcuts and many more features that will speed up your development.&lt;/p&gt;
+
+&lt;h3 id=&quot;sidebar-enhancements9&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/SideBarEnhancements&quot;&gt;Sidebar Enhancements&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The packages improves the usability of the sidebar by giving you more options on new files, moving files, copying files and opening files in another program.&lt;/p&gt;
+
+&lt;h3 id=&quot;jquery10&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/jQuery&quot;&gt;jQuery&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This jQuery package comes with loads of code snippets for help with your jQuery development.&lt;/p&gt;
+
+&lt;h3 id=&quot;html511&quot;&gt;&lt;a href=&quot;https://sublime.wbond.net/packages/HTML5&quot;&gt;HTML5&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A &lt;a title=&quot;What Is HTML5?&quot; href=&quot;http://www.paulund.co.uk/what-is-html5&quot; target=&quot;_blank&quot;&gt;HTML5&lt;/a&gt; package of HTML5 snippets for quicker HTML development.&lt;/p&gt;
+
+&lt;h2 id=&quot;change-preferences&quot;&gt;Change Preferences&lt;/h2&gt;
+
+&lt;p&gt;Sublime Text 3 does not allow you to change default settings in the &lt;code&gt;Settings - Default&lt;/code&gt; file. This is because this file gets overwritten each time the program is upgraded, losing all of your settings. To change settings, choose &lt;code&gt;Preferences -&amp;gt; Settings - User&lt;/code&gt;, create an empty array if the file has no contents:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and put your settings in it, with a comma after each one but the last. Below, are my settings.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;trim_trailing_white_space_on_save&quot;: true, 
+    &quot;word_wrap&quot;: true, 
+    &quot;save_on_focus_lost&quot;: true, 
+    &quot;bold_folder_labels&quot;: true, 
+    &quot;highlight_modified_tabs&quot;: true, 
+    &quot;scroll_past_end&quot;: true,
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;learn-some-shortcuts-and-save-keystrokes&quot;&gt;Learn Some Shortcuts and Save KeyStrokes&lt;/h2&gt;
+
+&lt;p&gt;All of the Sublime Text keyboard shortcuts are located in Preferences -&amp;gt; Key Bindings Default.&lt;/p&gt;
+
+&lt;p&gt;Here’s a example of some of the keyboard shortcuts you can use inside Sublime.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+k, ctrl+b&lt;/strong&gt; – Toggle the sidebar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;f11&lt;/strong&gt; – Toggle Full Screen&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;shift+f11&lt;/strong&gt; – Toggle Distraction Free&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;alt+.&lt;/strong&gt; – Close Tag&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+p&lt;/strong&gt; – Show the go to overlay panel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+shift+p&lt;/strong&gt; – Show the command overlay panel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+alt+p&lt;/strong&gt; – Show the project selector panel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+r&lt;/strong&gt; – Show the go to overlay panel default to method selector&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+g&lt;/strong&gt; – Show the go to overlay panel default to go to line selector&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+;&lt;/strong&gt; – Show the go to overlay panel default to variable selector&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+shift+up&lt;/strong&gt; – Swap with the line above&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+shift+down&lt;/strong&gt; – Swap with the line below&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+/&lt;/strong&gt; – Toggle a comment&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+shift+/&lt;/strong&gt; – Toggle a comment block&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+shift+d&lt;/strong&gt; – Duplicate a line&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+`&lt;/strong&gt; – Display console panel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+space&lt;/strong&gt; – Auto complete the current selected snippet&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+k, ctrl+u&lt;/strong&gt; – Toggle upper case&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ctrl+k, ctrl+l&lt;/strong&gt; – Toggle lower case&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to add your own keyboard shortcuts or override the default shortcuts you should use the user specific keyboard shortcut file.&lt;/p&gt;
+
+&lt;p&gt;Preferences -&amp;gt; Key Bindings User.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/my-set-up-sublime-text-3-the-best-text-editor/&quot;&gt;My Set-up Sublime Text 3 the Best Text Editor&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on June 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How to use Comic Vine API &#8211; Part 1]]></title>
+  <link rel="alternate" type="text/html" href="/how-to-use-comic-vine-api-part-1/" />
+  <id>/how-to-use-comic-vine-api-part-1</id>
+  <published>2015-05-26T00:00:00-04:00</published>
+  <updated>2015-05-26T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.&lt;/p&gt;
+
+&lt;p&gt;Luckily, &lt;a href=&quot;http://comicvine.com&quot; target=&quot;_blank&quot;&gt;Comic Vine&lt;/a&gt; has more metadata than I could ever need. Plus, they have a free &lt;a href=&quot;http://comicvine.com/api&quot; target=&quot;_blank&quot;&gt;Web API &lt;/a&gt;that gives access to all their data, which is a perfect solution for what I am trying to accomplish.&lt;/p&gt;
+
+&lt;p&gt;The bad news, I am a little rusty on Web API, so I needed to find some Comic Vine API Examples to help me get started. My first idea was to check the forums to make sure they had all that I needed to get started… Good documentation, but no examples. So, then I decided to Google what I was looking for…. A little better, but that was more re-directing me back to the forums.  Lastly, I wanted to see what was already created. Two projects caught my eye: &lt;a href=&quot;https://code.google.com/p/comic-vine-scraper/&quot; target=&quot;_blank&quot;&gt;Comic Vine Scrapper for Comicrack&lt;/a&gt; and &lt;a href=&quot;http://sharpcomicvine.codeplex.com/&quot; target=&quot;_blank&quot;&gt;Sharp ComicVine&lt;/a&gt;. Both of which had calls to the API that I could use as starting points for my system.&lt;/p&gt;
+
+&lt;p&gt;But, I wanted a more straight forward resource, so I decided to write one up.&lt;/p&gt;
+
+&lt;p&gt;This first blog covers some of the Comic Vine API  structure, basic API calls,  sorting results, and limt data returned.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;For these posts, I  will use the following abbreviations for API resources.&lt;/p&gt;
+
+&lt;h3 id=&quot;abbreviations&quot;&gt;Abbreviations&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;YOUR_APIKEY&lt;/em&gt;&lt;/strong&gt; = Your Personal API Key. Can be acquired &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;URL&lt;/em&gt;&lt;/strong&gt; = The Comic Vine API address is &lt;a href=&quot;http://www.comicvine.com/api&quot; target=&quot;_blank&quot;&gt;www.comicvine.com/api&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;**&lt;resources&gt; **= The Comic Vine Resources, sample below&lt;/resources&gt;&lt;/li&gt;
+  &lt;li&gt;**&lt;field_list&gt; **=  Any field within the resource being called&lt;/field_list&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sample-of-api-resources&quot;&gt;Sample of API Resources&lt;/h3&gt;
+
+&lt;p&gt;Each resource as a plural and singular component. In most API calls, you will use the plural to have the call return a list of  the singular.&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 90px;&quot; align=&quot;left&quot;&gt;
+  &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-2&quot; target=&quot;_blank&quot;&gt;Character&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-3&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;         &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-10&quot; target=&quot;_blank&quot;&gt;Issue&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-11&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 90px;&quot; align=&quot;left&quot;&gt;
+  &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-26&quot; target=&quot;_blank&quot;&gt;Publisher&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-27&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;          &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-28&quot; target=&quot;_blank&quot;&gt;Series&lt;/a&gt;/&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-29&quot; target=&quot;_blank&quot;&gt;Series_List&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 90px;&quot; align=&quot;left&quot;&gt;
+  &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-33&quot; target=&quot;_blank&quot;&gt;Team&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-34&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;                 &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-40&quot; target=&quot;_blank&quot;&gt;Volume&lt;/a&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-41&quot; target=&quot;_blank&quot;&gt;(s)&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 90px;&quot; align=&quot;left&quot;&gt;
+  &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-30&quot; target=&quot;_blank&quot;&gt;Search&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;strong&gt;Also before we dive into the examples, I want to mention how the &lt;/strong&gt;&lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-0&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;results&lt;/strong&gt; &lt;/a&gt;&lt;strong&gt;are delivered. &lt;/strong&gt;They are arranged as&lt;strong&gt;; &lt;/strong&gt;error, limit (Comic Vine caps at 100), offset, number of page results, number of total results, status code, and results. The first example will breakdown these areas in more detail
+&lt;/p&gt;
+
+&lt;h3 align=&quot;left&quot;&gt;
+  Okay, finally, some Comic Vine API Examples…..
+&lt;/h3&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;strong&gt;First, a basic API CALL to to pull back all the data for a specific resource&lt;/strong&gt; that is stored on Comic Vine. By design, this call will pull all issues back in a random pattern. The API call for this is:
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY
+
+
+&lt;p align=&quot;left&quot;&gt;
+  To pull all 439,999 issues within the Comic Vine, you would use
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+   &lt;strong&gt;URL/issues/?api_key=YOUR_APIKEY&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;img class=&quot; wp-image-559  aligncenter&quot; src=&quot;http://i2.wp.com/josephephillips.com/wp-content/uploads/2015/05/Issues.png?resize=423%2C304&quot; alt=&quot;Issues&quot; data-recalc-dims=&quot;1&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  The response for the Issues API call is:
+&lt;/p&gt;
+
+&lt;pre class=&quot;lang:xhtml decode:true&quot;&gt;This XML file does not appear to have any style information associated with it. The document tree is shown below.
+     &amp;lt;response&amp;gt;
+         &amp;lt;error&amp;gt;
+             &amp;lt;![CDATA[ OK ]]&amp;gt;
+         &amp;lt;/error&amp;gt;
+         &amp;lt;limit&amp;gt;100&amp;lt;/limit&amp;gt;
+         &amp;lt;offset&amp;gt;0&amp;lt;/offset&amp;gt;
+         &amp;lt;number_of_page_results&amp;gt;100&amp;lt;/number_of_page_results&amp;gt;
+         &amp;lt;number_of_total_results&amp;gt;439999&amp;lt;/number_of_total_results&amp;gt;
+         &amp;lt;status_code&amp;gt;1&amp;lt;/status_code&amp;gt;
+         &amp;lt;results&amp;gt;...&amp;lt;/results&amp;gt; //Collapsed for readability
+         &amp;lt;version&amp;gt;1.0&amp;lt;/version&amp;gt;
+     &amp;lt;/response&amp;gt;&lt;/pre&gt;
+
+The response shows that the API call was “OK”, meaning there were no errors. Along with showing that the limit of 100 results was reached, but there were a 439,999 results matching the Comic Vine Wiki for issues. (Later will explain the two ways, page and offset, to iterate through the results.) The results section for any API call will show all the fields that are available for a resource. In this scenario we requested all the ***issues***, and we see the ***issue*** fields. If you request volumes, you see volume in the results section.
+
+&lt;div class=&quot;csharpcode&quot;&gt;
+  &lt;pre class=&quot;lang:xhtml decode:true &quot;&gt;&amp;lt;results&amp;gt;
+        &amp;lt;issue&amp;gt;
+            &amp;lt;aliases/&amp;gt;
+            &amp;lt;api_detail_url&amp;gt;
+                &amp;lt;![CDATA[ http://www.comicvine.com/api/issue/4000-6/ ]]&amp;gt;
+            &amp;lt;/api_detail_url&amp;gt;
+            &amp;lt;cover_date&amp;gt;
+                &amp;lt;![CDATA[ 1952-10-01 ]]&amp;gt;
+            &amp;lt;/cover_date&amp;gt;
+            &amp;lt;date_added&amp;gt;2008-06-06 11:10:16&amp;lt;/date_added&amp;gt;
+            &amp;lt;date_last_updated&amp;gt;2012-11-28 06:41:46&amp;lt;/date_last_updated&amp;gt;
+            &amp;lt;deck/&amp;gt;
+            &amp;lt;description&amp;gt;...&amp;lt;/description&amp;gt;
+            &amp;lt;has_staff_review/&amp;gt;
+            &amp;lt;id&amp;gt;6&amp;lt;/id&amp;gt;
+            &amp;lt;image&amp;gt;
+                &amp;lt;icon_url&amp;gt;...&amp;lt;/icon_url&amp;gt; // Collapsed for readability
+                &amp;lt;medium_url&amp;gt;...&amp;lt;/medium_url&amp;gt; // Collapsed for readability
+                &amp;lt;screen_url&amp;gt;...&amp;lt;/screen_url&amp;gt;// Collapsed for readability
+                &amp;lt;small_url&amp;gt;...&amp;lt;/small_url&amp;gt;// Collapsed for readability
+                &amp;lt;super_url&amp;gt;...&amp;lt;/super_url&amp;gt;// Collapsed for readability
+                &amp;lt;thumb_url&amp;gt;...&amp;lt;/thumb_url&amp;gt;// Collapsed for readability
+                &amp;lt;tiny_url&amp;gt;...&amp;lt;/tiny_url&amp;gt;  // Collapsed for readability
+            &amp;lt;/image&amp;gt;
+            &amp;lt;issue_number&amp;gt;13&amp;lt;/issue_number&amp;gt;
+            &amp;lt;name&amp;gt;...&amp;lt;/name&amp;gt;
+            &amp;lt;site_detail_url&amp;gt;...&amp;lt;/site_detail_url&amp;gt;
+            &amp;lt;store_date/&amp;gt;
+            &amp;lt;volume&amp;gt;
+                &amp;lt;api_detail_url&amp;gt;...&amp;lt;/api_detail_url&amp;gt;
+                &amp;lt;id&amp;gt;1487&amp;lt;/id&amp;gt;
+                &amp;lt;name&amp;gt;
+                    &amp;lt;![CDATA[ Chamber of Chills Magazine ]]&amp;gt;
+                &amp;lt;/name&amp;gt;
+                &amp;lt;site_detail_url&amp;gt;
+                    &amp;lt;![CDATA[
+                    http://www.comicvine.com/chamber-of-chills-magazine/4050-1487/
+                    ]]&amp;gt;
+                &amp;lt;/site_detail_url&amp;gt;
+            &amp;lt;/volume&amp;gt;
+        &amp;lt;/issue&amp;gt;
+        &amp;lt;issue&amp;gt;...&amp;lt;/issue&amp;gt; // Collapsed for readability
+        &amp;lt;issue&amp;gt;...&amp;lt;/issue&amp;gt; // Collapsed for readability
+        &amp;lt;issue&amp;gt;...&amp;lt;/issue&amp;gt;  // Collapsed for readability&lt;/pre&gt;
+  
+  &lt;p&gt;
+    &lt;strong&gt;Second,  add structure to how the data is returned with a &lt;em&gt;sort&lt;/em&gt;, &lt;/strong&gt;the format for this is:
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;strong&gt; &lt;/strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY &lt;strong&gt;&amp;amp;sort=&lt;field_list&gt;
+
+
+The Field_List for each resource is different, and you will need to &lt;a href=&quot;http://www.comicvine.com/api/documentation#toc-0-0&quot; target=&quot;_blank&quot;&gt;review &lt;/a&gt;the individual resources to determine which can be used for sorting. Below, is original issues call with a sort to return the data based on cover_date to return all issues sorted by issue name.
+
+&lt;p align=&quot;center&quot;&gt;
+  URL/volume/?api_key=YOUR_APIKEY &lt;strong&gt;&amp;amp;sort=cover_date: desc&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;a href=&quot;http://i2.wp.com/josephephillips.com/wp-content/uploads/2015/05/Issues-Sort.png&quot;&gt;&lt;img class=&quot;aligncenter  wp-image-560&quot; src=&quot;http://i2.wp.com/josephephillips.com/wp-content/uploads/2015/05/Issues-Sort.png?resize=579%2C299&quot; alt=&quot;Issues - Sort&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+From looking at the wiki, the first comic book that should be returned is Edgar Wallace Comic #1, (uh! Typo, not sure, but it says 2051). The response we see is.
+
+&lt;pre class=&quot;lang:xhtml decode:true&quot;&gt;//data removed for readability
+&amp;lt;issue&amp;gt;
+   &amp;lt;aliases/&amp;gt;
+     &amp;lt;api_detail_url&amp;gt;
+         &amp;lt;![CDATA[ http://www.comicvine.com/api/issue/4000-386024/ ]]&amp;gt;
+     &amp;lt;/api_detail_url&amp;gt;
+     &amp;lt;cover_date&amp;gt;
+         &amp;lt;![CDATA[ 2051-05-23 ]]&amp;gt;
+     &amp;lt;/cover_date&amp;gt;
+     &amp;lt;date_added&amp;gt;2013-02-10 20:24:46&amp;lt;/date_added&amp;gt;
+     &amp;lt;date_last_updated&amp;gt;2014-09-17 13:17:30&amp;lt;/date_last_updated&amp;gt;
+     &amp;lt;deck/&amp;gt;
+     &amp;lt;description/&amp;gt;
+     &amp;lt;has_staff_review/&amp;gt;
+     &amp;lt;id&amp;gt;386024&amp;lt;/id&amp;gt;
+     &amp;lt;image&amp;gt;...&amp;lt;/image&amp;gt;
+     &amp;lt;issue_number&amp;gt;1&amp;lt;/issue_number&amp;gt;
+     &amp;lt;name&amp;gt;
+        &amp;lt;![CDATA[ When the Gangs come to London ]]&amp;gt;
+     &amp;lt;/name&amp;gt;&lt;/pre&gt;
+
+&amp;gt; ### Interesting side note
+&amp;gt; 
+&amp;gt; If you call, **URL/issues/?api\_key=YOUR\_APIKEY &amp;amp;sort=name**, you are searching for the name of the issue. With numerous issues not having names, these nameless issues are returned, but are not in any order by volumes.
+
+**By changing the resource you can pull different items. **
+
+Let&amp;#8217;s pull volumes sorted in alphabetical order:
+
+&amp;gt; &lt;p align=&quot;center&quot;&gt;
+&amp;gt;   URL/&lt;strong&gt;volumes&lt;/strong&gt;/?api_key=YOUR_APIKEY &amp;amp;sort=name
+&amp;gt; &lt;/p&gt;
+
+Let&amp;#8217;s pull characters sorted in alphabetical order:
+
+&amp;gt; &lt;p align=&quot;center&quot;&gt;
+&amp;gt;   URL/&lt;strong&gt;characters&lt;/strong&gt;/?api_key=YOUR_APIKEY &amp;amp;sort=name
+&amp;gt; &lt;/p&gt;
+
+**Lastly, lets limit the number of fields that are returned**, to do this we add the field_list to the call.
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;strong&gt;       &lt;/strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY &amp;amp;&lt;strong&gt;field_list=&lt;field&gt;
+
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;strong&gt;or &lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;strong&gt;       &lt;/strong&gt;URL/&lt;resource&gt;/?api_key=YOUR_APIKEY &amp;amp;sort=&lt;field&gt;&amp;amp;&lt;strong&gt;field_list=&lt;field&gt; 
+
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;strong&gt;To pull a list of all the Characters sorted by name with only the name field and the first issue they appeared in,  &lt;/strong&gt;you would use:
+&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;strong&gt;       &lt;/strong&gt;URL/characters/?api_key=YOUR_APIKEY &amp;amp;sort=name&amp;amp;&lt;strong&gt;field_list=name&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;pre class=&quot;lang:xhtml decode:true&quot;&gt;&amp;lt;offset&amp;gt;0&amp;lt;/offset&amp;gt;
+&amp;lt;number_of_page_results&amp;gt;100&amp;lt;/number_of_page_results&amp;gt;
+&amp;lt;number_of_total_results&amp;gt;95853&amp;lt;/number_of_total_results&amp;gt;
+&amp;lt;status_code&amp;gt;1&amp;lt;/status_code&amp;gt;
+&amp;lt;results&amp;gt;
+	&amp;lt;character&amp;gt;
+		&amp;lt;first_appeared_in_issue/&amp;gt;
+		&amp;lt;name&amp;gt;
+			&amp;lt;![CDATA[ Burnbot ]]&amp;gt;
+		&amp;lt;/name&amp;gt;
+	&amp;lt;/character&amp;gt;
+	&amp;lt;character&amp;gt;
+		&amp;lt;first_appeared_in_issue&amp;gt;
+			&amp;lt;api_detail_url&amp;gt;
+				&amp;lt;![CDATA[
+				http://www.comicvine.com/api/first_appeared_in_issue/4000-125904/
+				]]&amp;gt;
+			&amp;lt;/api_detail_url&amp;gt;
+			&amp;lt;id&amp;gt;125904&amp;lt;/id&amp;gt;
+			&amp;lt;name/&amp;gt;
+			&amp;lt;issue_number&amp;gt;1&amp;lt;/issue_number&amp;gt;
+		&amp;lt;/first_appeared_in_issue&amp;gt;
+		&amp;lt;name&amp;gt;
+			&amp;lt;![CDATA[ &#39;Breed ]]&amp;gt;
+		&amp;lt;/name&amp;gt;
+	&amp;lt;/character&amp;gt;
+	&amp;lt;character&amp;gt;&lt;/pre&gt;
+
+I think this is a good start, we will dive next time into filters&amp;#8230;
+&lt;/field&gt;&lt;/strong&gt;&lt;/field&gt;&lt;/resource&gt;&lt;/p&gt;&lt;/field&gt;&lt;/strong&gt;&lt;/resource&gt;&lt;/p&gt;&lt;/field_list&gt;&lt;/strong&gt;&lt;/resource&gt;&lt;/p&gt;&lt;/resource&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/how-to-use-comic-vine-api-part-1/&quot;&gt;How to use Comic Vine API &amp;#8211; Part 1&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[KataDay &#8211; StringCalculator]]></title>
+  <link rel="alternate" type="text/html" href="/kataday_stringcalculator/" />
+  <id>/kataday_stringcalculator</id>
+  <published>2015-05-22T00:00:00-04:00</published>
+  <updated>2015-05-22T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;For my last day of KataDay, I thought would continue on my TDD Kata’s and decided to do, &lt;a href=&quot;http://osherove.com/tdd-kata-1/&quot;&gt;Roy Osherove’s String Calculator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a kata that allows you work through the steps of refactoring and testing first.&lt;/p&gt;
+
+&lt;h3 id=&quot;instructions-from-roy8217s-kata&quot;&gt;Instructions from Roy’s Kata:&lt;/h3&gt;
+
+&lt;p&gt;Before you start:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Try not to read ahead.&lt;/li&gt;
+  &lt;li&gt;Do one task at a time. The trick is to learn to work incrementally.&lt;/li&gt;
+  &lt;li&gt;Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;String Calculator&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a simple String calculator with a method int Add(string numbers) 1.The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or “1” or “1,2”&lt;/li&gt;
+  &lt;li&gt;Start with the simplest test case of an empty string and move to 1 and two numbers&lt;/li&gt;
+  &lt;li&gt;Remember to solve things as simply as possible so that you force yourself to write tests you did not think about&lt;/li&gt;
+  &lt;li&gt;Remember to refactor after each passing test.
+    &lt;ol&gt;
+      &lt;li&gt;Allow the Add method to handle an unknown amount of numbers&lt;/li&gt;
+      &lt;li&gt;Allow the Add method to handle new lines between numbers (instead of commas). 1.the following input is ok:  “1\n2,3”  (will equal 6)&lt;/li&gt;
+      &lt;li&gt;the following input is NOT ok:  “1,\n” (not need to prove it – just clarifying)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Support different delimiters &lt;a href=&quot;http://1.to/&quot;&gt;1.to&lt;/a&gt; change a delimiter, the beginning of the string will contain a separate line that looks like this:   “//[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ .&lt;/li&gt;
+  &lt;li&gt;the first line is optional. all existing scenarios should still be supported&lt;/li&gt;
+  &lt;li&gt;Calling Add with a negative number will throw an exception “negatives not allowed” – and the negative that was passed.if there are multiple negatives, show all of them in the exception message&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;——————————————————————————–&lt;/p&gt;
+
+  &lt;p&gt;stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.&lt;/p&gt;
+
+  &lt;p&gt;——————————————————————————–&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Numbers bigger than 1000 should be ignored, so adding 2 + 1001  = 2&lt;/li&gt;
+  &lt;li&gt;Delimiters can be of any length with the following format:  “//[delimiter]\n” for example: “//[*\**]\n1***2***3” should return 6&lt;/li&gt;
+  &lt;li&gt;Allow multiple delimiters like this:  “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.&lt;/li&gt;
+  &lt;li&gt;make sure you can also handle multiple delimiters with length longer than one char&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons Learned:&lt;/h2&gt;
+
+&lt;p&gt;The ternary (?) is a good way to limit Code. Example below.&lt;/p&gt;
+
+&lt;pre class=&quot;lang:default decode:true&quot; title=&quot;IF Statement&quot;&gt;private char UserInputDelimiter(string userInput)
+{
+     if (userInput.Contains(&quot;//&quot;))
+     {
+           return char.Parse(userInput.Substring(2, 1));
+     }
+     else
+     {
+           return &#39;,&#39;;
+     }
+}&lt;/pre&gt;
+
+&lt;p&gt;VS.&lt;/p&gt;
+
+&lt;pre class=&quot;lang:default decode:true&quot;&gt;private char UserInputDelimiter(string userInput)
+{
+      return   userInput.Contains(&quot;//&quot;) ?  char.Parse(userInput.Substring(2, 1)) : &#39;,&#39;;
+}&lt;/pre&gt;
+
+&lt;p&gt;I started to wonder are my Test Method names getting an out of control (too long)?&lt;/p&gt;
+
+&lt;p&gt;I don’t think so. The detailed names helped me figure out where my issues where. Example below, shows the results when  something went wrong with testing my&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;ReturnExceptionMessageforMultipleNegativeNumbersAndWholeNumbersWithDifferentDelimiters&lt;/span&gt;() —- &lt;em&gt;Yep, that is long.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Not sure if there is a specific naming convention for Test Methods, but I think I will use:&lt;/p&gt;
+
+&lt;p&gt;“**Return &lt;expected type=&quot;&quot;&gt; for &amp;lt;input type/data&amp;gt;”**&lt;/expected&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, my re-factoring between testing needs to improve…. Just being honest with myself.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-solution&quot;&gt;Final Solution:&lt;/h2&gt;
+
+&lt;p&gt;With the length of the Kata code… I might need to start posting them to GitHub.&lt;/p&gt;
+
+&lt;p&gt;Today, is a reminder to refactor. Below is my final StringCalculator Class…. Re-factor! Make it easy to read, and more concise.&lt;/p&gt;
+
+&lt;pre class=&quot;lang:default decode:true&quot; title=&quot;Example to refactor&quot;&gt;using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace KataDay_3_StringCalculator
+{
+	public class StringCalculator
+	{
+        bool negativeUsed = false;
+
+        String negativeNumber;
+
+		public object Add(string userInput)
+		{
+
+                return string.IsNullOrEmpty(userInput) ? 0 : ConvertUserInput(userInput);
+		}
+
+		private int ConvertUserInput(string userInput)
+		{
+			int parseResult;
+			int result = 0;
+                        string[] userInputArray = formatUserInput(userInput);
+			foreach (var item in userInputArray)
+			{
+
+                           if (int.TryParse(item, out parseResult) &amp;amp;&amp;amp;  parseResult &amp;gt;= 0)
+                          {
+                              result += parseResult;
+                          }
+                          else
+	                 {
+                               negativeUsed = true;
+                               negativeNumber += item + &quot; &quot;;
+	                 }
+		     }
+            if (negativeUsed)
+            {
+                 throw new System.ArgumentException(&quot;Negatives not allowed&quot; + negativeNumber.ToString());
+            }
+            else
+            {
+                return result;
+            }
+		}
+
+        private string[] formatUserInput(string userInput)
+        {
+            char delimiter = UserInputDelimiter(userInput);
+            if (delimiter == &#39;,&#39;)
+            {
+               return userInput.Split(UserInputDelimiter(userInput));
+            }
+            else
+            {
+                //userInput = userInput.Substring(4);
+                return userInput.Split(delimiter);
+            }
+        }
+
+		private char UserInputDelimiter(string userInput)
+		{
+            return	userInput.Contains(&quot;//&quot;) ?  char.Parse(userInput.Substring(2, 1)) : &#39;,&#39;;
+		}
+
+	}
+}&lt;/pre&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/kataday_stringcalculator/&quot;&gt;KataDay &amp;#8211; StringCalculator&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 22, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Kataday &#8230; Turkey Countdown]]></title>
+  <link rel="alternate" type="text/html" href="/kataday-turkey-countdown/" />
+  <id>/kataday-turkey-countdown</id>
+  <published>2015-05-21T00:00:00-04:00</published>
+  <updated>2015-05-21T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;In honor of one of my favorite countdowns, &lt;a href=&quot;http://www.youtube.com/watch?v=tqpPFT-F-bs&quot;&gt;Slapsgiving&lt;/a&gt;, we will do a modified NASA Countdown, but call it Turkey Countdown for today’s KataDay and add a splash of &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot; target=&quot;_blank&quot;&gt;TDD &lt;/a&gt;for extra effort.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-kata&quot;&gt;&lt;strong&gt;Code Kata:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Momma wants to fry yet another turkey. As the official fryer of the turkey, you are very excited. So excited that about this responsibility you decide to create your one timer.&lt;/p&gt;
+
+&lt;p&gt;But &lt;strong&gt;the frying is only minutes away&lt;/strong&gt;. You have to create the timer in 5 minutes – or the turkey will be over cooked and lost!&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The turkey counter  will tell you where to start – then count to 0 and test yourself with TDD (bonus points).&lt;/strong&gt; (example for ’11’: 11 10 9 8 7 6 5 4 3 2 1 0)&lt;/p&gt;
+
+&lt;h2 id=&quot;lessons-learned&quot;&gt;&lt;strong&gt;Lessons Learned:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Since I wanted this to be based on TDD, I did find the following MSDN walkthroughs that were pretty quick and gave a good &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ms182532(v=vs.110).aspx&quot; target=&quot;_blank&quot;&gt;Walkthrough &lt;/a&gt;and &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/hh212233(v=vs.110).aspx&quot; target=&quot;_blank&quot;&gt;Quick Start&lt;/a&gt;. Trying to use console.read or console.writeline caused a major rabbit trail, and taught me that testing is all simulated. That is the purpose of test cases. testing user input is usually done through the application and test functionality. Although, there are some interesting postings on using StringWriter and StringReader to help with this (Example &lt;a href=&quot;http://blogs.msdn.com/b/ploeh/archive/2006/10/21/consoleunittesting.aspx&quot; target=&quot;_blank&quot;&gt;1&lt;/a&gt; and &lt;a href=&quot;http://www.softwareandi.com/2012/02/how-to-write-automated-tests-for.html&quot; target=&quot;_blank&quot;&gt;2&lt;/a&gt;), I did not get any of them to work.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-solution&quot;&gt;&lt;strong&gt;Final Solution:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;As always, these are not the perfect or most correct solutions. This is just where I landed.&lt;/p&gt;
+
+&lt;h3 id=&quot;testing-class&quot;&gt;Testing Class&lt;/h3&gt;
+
+&lt;pre class=&quot;lang:c# decode:true &quot;&gt;using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TurkeyDayCountdown;
+
+namespace TurkeyDayCountdown.Test
+{
+    [TestClass]
+    public class TurkeyCountdownTest
+    {
+        [TestMethod]
+        public void ReturnUserInputAsStartingPoint()
+        {
+            //arrange
+            int userinput = 5;
+            TurkeyCountdown turkeyCountdown = new TurkeyCountdown(userinput);
+
+            //assert
+            Assert.AreEqual(userinput, turkeyCountdown._CurrentPoint);
+        }
+
+        [TestMethod]
+        public void DescUserInputToZero()
+        {
+            //arrange
+            int userinput = 5;
+            int expectedResults = 0;
+            TurkeyCountdown turkeyCountdown = new TurkeyCountdown(userinput);
+
+            //act
+            turkeyCountdown.CountDown();
+
+            //assert
+            Assert.AreEqual(expectedResults, turkeyCountdown._CurrentPoint);
+        }
+    }
+}&lt;/pre&gt;
+
+&lt;h3 id=&quot;turkeycountdown-class&quot;&gt; TurkeyCountdown Class&lt;/h3&gt;
+
+&lt;pre class=&quot;lang:c# decode:true&quot;&gt;using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace TurkeyDayCountdown
+{
+    public class TurkeyCountdown
+    {
+       public int _startingPoint {get; set;}
+       public int _CurrentPoint;
+
+       public  TurkeyCountdown(int startingPoint)
+       {
+           _startingPoint = startingPoint;
+           _CurrentPoint = startingPoint;
+       }
+
+       public void CountDown()
+       {
+           for (int i = 0; i &amp;lt;= _startingPoint; _startingPoint--)
+           {
+               _CurrentPoint = _startingPoint;
+               DisplayMessage(_CurrentPoint);
+           }
+       }
+
+       private void DisplayMessage(int _CurrentPoint)
+       {
+           Console.WriteLine(_CurrentPoint);
+           if (_CurrentPoint == 0)
+           {
+               Console.WriteLine(&quot;Fry that TURKEY!&quot;);
+           }
+       }
+    }
+}&lt;/pre&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/kataday-turkey-countdown/&quot;&gt;Kataday &amp;#8230; Turkey Countdown&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 21, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Solve 5 problems in 25 minutes]]></title>
+  <link rel="alternate" type="text/html" href="/solve-5-problems-in-25-minutes/" />
+  <id>/solve-5-problems-in-25-minutes</id>
+  <published>2015-05-20T00:00:00-04:00</published>
+  <updated>2015-05-20T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;The whole premise of KataDays are to take simple problems, and use them as a learning experience to improve my coding/algorithm/critical thinking. SO, to make make today interesting, I found 5 simple problems, at the end of this post , and I am giving my self 5 minutes per problem to solve each one….&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Overall, this is what a great exercise, it really forced me to think on my feet. While the exercises were inherently easy, they each had their little nuances. I suggest do these Katas with one or more programmers and see what variances exists.  For example, one programmer was able to answer Exercise 5 in &lt;strong&gt;ONE LINE&lt;/strong&gt;! It took me several more.&lt;/p&gt;
+
+&lt;p&gt;Below are the differences between me and a co-worker. This was based on our thought process. &lt;!--more--&gt;I was going for quick … Array, For Each, set surname, and print to console.log(). Co-worker was thinking about pulling from a “dictionary” so he created a separate method. Interesting differences based on such a simple process. We both completed the exercise, but essentially different processes.&lt;/p&gt;
+
+&lt;p&gt;My Code&lt;/p&gt;
+
+&lt;pre class=&quot;lang:c# decode:true&quot;&gt;///// 
+ foreach (var item in _males)
+ {
+            {
+                if (item == name)
+                    surname = &quot;Mr. &quot;;
+            }
+            foreach (var item in _females)
+            {
+                if (item == name)
+                    surname = &quot;Ms. &quot;;
+            }
+  }
+/////&lt;/pre&gt;
+
+&lt;p&gt;Co-workers Code&lt;/p&gt;
+
+&lt;pre class=&quot;lang:c# decode:true&quot;&gt;/////
+Console.WriteLine(Normalization(input));
+/////
+        private static string Normalization(string Input)
+        {
+            switch(Input.Trim().ToLower())
+            {
+                case &quot;amy&quot;:
+                    return &quot;Ms. Amy&quot;;
+                case &quot;buffy&quot;:
+                    return &quot;Ms. Buffy&quot;;
+                case &quot;cathy&quot;:
+                    return &quot;Ms. Cathy&quot;;
+                case &quot;elroy&quot;:
+                    return &quot;Mr. Elroy&quot;;
+                case &quot;fred&quot;:
+                    return &quot;Mr. Fred&quot;;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise 1 — Apply Surname to Name&lt;/strong&gt;&lt;br /&gt;
+Write a program that asks for the user’s name and then writes that name to the monitor with either “Ms.” or “Mr.” in front, depending if the name is for a female or male.&lt;/p&gt;
+
+&lt;p&gt;Assume that the only female names are:&lt;br /&gt;
+• Amy&lt;br /&gt;
+• Buffy&lt;br /&gt;
+• Cathy&lt;br /&gt;
+And that the only male names are:&lt;br /&gt;
+• Elroy&lt;br /&gt;
+• Fred&lt;br /&gt;
+• Graham&lt;br /&gt;
+All other names will be echoed without a title.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise 2 — Name Echo&lt;/strong&gt;&lt;br /&gt;
+Write a program that asks for user’s name and then writes it back with the first name as entered, and the second name all in capital letters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise 3 — Convert String to a Letter per Line&lt;/strong&gt;&lt;br /&gt;
+Write a program where the user enters a string, and the program echoes it to the monitor with one character per line.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise 4 — Area of a Circle&lt;/strong&gt;&lt;br /&gt;
+Write a program that calculates the area of a circle from its radius. The radius will be an integer read in from the keyboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise 5 — Title Applier&lt;/strong&gt;&lt;br /&gt;
+Write a program that reads in a number of cents. The program will write out the number of dollars and cents.&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;#&lt;/h1&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/solve-5-problems-in-25-minutes/&quot;&gt;Solve 5 problems in 25 minutes&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 20, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Code Kata + today = Kataday!]]></title>
+  <link rel="alternate" type="text/html" href="/code-kata-today-kataday/" />
+  <id>/code-kata-today-kataday</id>
+  <published>2015-05-19T00:00:00-04:00</published>
+  <updated>2015-05-19T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I originally heard of Dave Thomas’ &lt;a href=&quot;http://codekata.pragprog.com/&quot;&gt;Code Kata&lt;/a&gt; months ago. The thought behind Code Kata is to take simple problems, and use them as a learning experience to improve ones coding/algorithm/critical thinking. At the time, I thought it would be nice idea to do, but I did not have the drive to actually proceed with doing any. Jump forward, and I have decided to revisit this subject. I hope this week is to do 5 days of Code Kata and post my experiences here. Aftwards, I will do these little Code Kata’s any day during the week. Then share what I have learned. Hence, today is my first Kataday! (&lt;em&gt;Stop Laughing! I think it is cool!&lt;/em&gt;) In most cases, the solution will not be the best,but it is just what I came up with to solve the Kata&lt;/p&gt;
+
+&lt;h3 id=&quot;exercise&quot;&gt;Exercise&lt;strong&gt;:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Create a listing of all the two character combinations that exist with using only letters and numbers. {i.e. 11, 1A, A1, AA} No special characters. I used C# and Visual Studio as my IDE.&lt;/p&gt;
+
+&lt;p&gt;I could have made this harder by requiring myself to use any other language {i.e. PHP, JavaScript}. The premise for this was that I actually had to create this listing for a project, so it made sense for my first Kata. The code for solving this was actually straight forward. Of course, this was not a mind blowing Kata. It was just a start. Have to crawl before you can walk…. running is later.&lt;/p&gt;
+
+&lt;pre class=&quot;lang:c# decode:true prettyprint  &quot;&gt;using System;
+using System.Diagnostics;
+namespace KataDay
+{
+    class Program {
+        static void Main(string[] args {
+            for (char i = &#39;1&#39;; i &amp;lt;= &#39;Z&#39;; i++) {
+                for (char C = &#39;1&#39;; C &amp;lt;= &#39;Z&#39;; C++){
+                    if (char.IsLetterOrDigit(i))
+                        if(char.IsLetterOrDigit(C))
+                        Debug.WriteLine(i + &quot; &quot; + C);
+                    } 
+                } 
+            } 
+        } 
+    }&lt;/pre&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/code-kata-today-kataday/&quot;&gt;Code Kata + today = Kataday!&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[My Takeaways on Version Control &#8211; Why is it important?]]></title>
+  <link rel="alternate" type="text/html" href="/my-takeaways-on-version-control-important/" />
+  <id>/learning-version-control-important</id>
+  <published>2015-05-14T00:00:00-04:00</published>
+  <updated>2015-05-14T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?&lt;/p&gt;
+
+&lt;p&gt;It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad’s post &lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;A Visual Guide to Version Control&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;&lt;img class=&quot;aligncenter&quot; src=&quot;http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350&quot; alt=&quot;&quot; name=&quot;ebba8eb4-8af3-42cd-a7e2-2716654f99e5&quot; align=&quot;center&quot; border=&quot;0&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;You always have some sort of Version Control&lt;/strong&gt;. Some are just better than others.&lt;/p&gt;
+
+&lt;p&gt;You just might have not known it. We create new copies of the same file to show different stages of the document/photos changes. That was the point of using “Save As”. Most folders end up with files like this.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KatyaResume112006.doc&lt;/li&gt;
+  &lt;li&gt;KatyaResume11022007.doc&lt;/li&gt;
+  &lt;li&gt;indexV3.png&lt;/li&gt;
+  &lt;li&gt;indexV4.png&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;will-this-work-for-coding&quot;&gt;&lt;strong&gt;Will this work for Coding?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;While using this system for documentation is fine. Maintaining the number of files needed for a basic Web Application, let alone a large program it will not work.&lt;/p&gt;
+
+&lt;p&gt;I can not imagine the developers of Angry Birds with multiple shared folders named “Angry Birds – 01012012 -New Version”. A project of this scale would have a large number of programmers that would need to access to the same files. With a sub-par naming conventions and multiple hands in the pot, this will lead to disastrous outcomes.&lt;/p&gt;
+
+&lt;p&gt;This is where a Version Control System(VCS) comes into place. A good VCS does the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Backup and Restore.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Synchronization.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Short-term undo.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Long-term undo.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Track Changes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Track Ownership.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sandboxing&lt;/strong&gt;, or insurance against yourself. Making a big change? You can make temporary changes in an isolated area, test and work out the kinks before “checking in” your changes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Branching and merging&lt;/strong&gt;. A larger sandbox. You can &lt;strong&gt;branch&lt;/strong&gt; a copy of your code into a separate area and modify it in isolation (tracking changes separately). Later, you can &lt;strong&gt;merge&lt;/strong&gt; your work back into the common area.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;first-learn-the-lingo-for-some-concepts-and-actions&quot;&gt;&lt;strong&gt;First, learn the lingo for some concepts and actions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Personally, I use &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git &lt;/a&gt;for my Version Control, and hosting all my code on &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;.  This could be to deploy a C# applicaiton on Azure or a Laravel site on SiteGround. All VCSs have the same basic concepts:&lt;/p&gt;
+
+&lt;h3 id=&quot;concepts&quot;&gt;&lt;strong&gt;Concepts&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id9548&quot; tabindex=&quot;0&quot; title=&quot;Click to see&quot;&gt;Click to see&lt;/span&gt;&lt;/p&gt;
+
+&lt;div id=&quot;target-id9548&quot; class=&quot;collapseomatic_content &quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Repository (repo)&lt;/strong&gt;: A repository contains the history, the different versions over time and all different branches and tags. In Git each copy of the repository is a complete repository. The repository allows you to retrieve revisions into your working copy.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Branches : &lt;/strong&gt;A branch is a separate code line with its own history. You can create a new branch from an existing one and change the code independently from other branches. One of the branches is the default (normally named master). The user selects a branch and works in this selected branch, which is called the &amp;#8220;working copy&amp;#8221;. Selecting a branch is called &amp;#8220;checkout a branch&amp;#8221;.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Commit: &lt;/strong&gt;You commit your changes into a repository. This creates a new revision which can be retrieved later, for example if you want to see the source code of an older version. Each commit contains the author and committer, thus making it possible to identify the source of the change. The author and committer might be different people.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Revision : &lt;/strong&gt;Represents a version of the source code.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Head&lt;/strong&gt;: The latest revision in the repo.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;basic-actions&quot;&gt;&lt;strong&gt;Basic Actions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id8622&quot; tabindex=&quot;0&quot; title=&quot;Click to see&quot;&gt;Click to see&lt;/span&gt;&lt;/p&gt;
+
+&lt;div id=&quot;target-id8622&quot; class=&quot;collapseomatic_content &quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Add&lt;/strong&gt;: Put a file into the repo for the first time, i.e. begin tracking it with Version Control.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Check out&lt;/strong&gt;: Download a file from the repo.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Check in&lt;/strong&gt;: Upload a file to the repository (if it has changed). The file gets a new revision number, and people can “check out” the latest one.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Checkin Message&lt;/strong&gt;: A short message describing what was changed.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Changelog/History&lt;/strong&gt;: A list of changes made to a file since it was created.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Update/Sync&lt;/strong&gt;: Synchronize your files with the latest from the repository. This lets you grab the latest revisions of all files.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Revert&lt;/strong&gt;: Throw away your local changes and reload the latest version from the repository.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;advanced-actions&quot;&gt;&lt;strong&gt;Advanced Actions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id5453&quot; tabindex=&quot;0&quot; title=&quot;Click to see&quot;&gt;Click to see&lt;/span&gt;&lt;/p&gt;
+
+&lt;div id=&quot;target-id5453&quot; class=&quot;collapseomatic_content &quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Branch&lt;/strong&gt;: Create a separate copy of a file/folder for private use (bug fixing, testing, etc). Branch is both a verb (“branch the code”) and a noun (“Which branch is it in?”).
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Diff/Change/Delta&lt;/strong&gt;: Finding the differences between two files. Useful for seeing what changed between revisions.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Merge (or patch)&lt;/strong&gt;: Apply the changes from one file to another, to bring it up-to-date. For example, you can merge features from one branch into another. (At Microsoft this was called &lt;a href=&quot;http://blogs.msdn.com/larryosterman/archive/2005/02/01/364840.aspx&quot; target=&quot;_blank&quot; shape=&quot;rect&quot;&gt;Reverse Integrate and Forward Integrate&lt;/a&gt;)
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Conflict&lt;/strong&gt;: When pending changes to a file contradict each other (both changes cannot be applied).
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Resolve&lt;/strong&gt;: Fixing the changes that contradict each other and checking in the correct version.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Locking&lt;/strong&gt;: Taking control of a file so nobody else can edit it until you unlock it. Some version control systems use this to avoid conflicts.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Breaking the lock&lt;/strong&gt;: Forcibly unlocking a file so you can edit it. It may be needed if someone locks a file and goes on vacation (or “calls in sick” the day Halo 3 comes out).
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Check out for edit&lt;/strong&gt;: Checking out an “editable” version of a file. Some VCSes have editable files by default, others require an explicit command.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Let’s put these concepts and actions to practice:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Joseph &lt;strong&gt;adds&lt;/strong&gt; a file (&lt;code&gt;HoneyDoes.txt&lt;/code&gt;) to the &lt;strong&gt;repository&lt;/strong&gt;. He &lt;strong&gt;checks it out&lt;/strong&gt;, makes a change (puts “Cut Grass” on the list), and checks it back in with a checkin message (“Added required item.”). The next morning, Katya &lt;strong&gt;updates&lt;/strong&gt; her local cop sees the latest revision of HoneyDoes&lt;code&gt;.txt&lt;/code&gt;, which contains Joseph’s addition. She can browse the &lt;strong&gt;changelog&lt;/strong&gt; or &lt;strong&gt;diff&lt;/strong&gt; to see that Joseph put “Cut Grass” the day before.&lt;/p&gt;
+
+&lt;h2 id=&quot;takeaway8230&quot;&gt;Take away…&lt;/h2&gt;
+
+&lt;p&gt;As you can see Version Control is the best and simplest solution for managing changes in a coding environment. There are a robust amount of features and options that Version Control can provide. Over the next couple weeks, I will provide more solutions and tutorials on setting up Git and GitHub, and using on a daily basis.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/my-takeaways-on-version-control-important/&quot;&gt;My Takeaways on Version Control &amp;#8211; Why is it important?&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 14, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Does Conway&#8217;s Law effect the way your business designs systems?]]></title>
+  <link rel="alternate" type="text/html" href="/conways-law/" />
+  <id>/conways-law</id>
+  <published>2015-05-12T00:00:00-04:00</published>
+  <updated>2015-05-12T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.&lt;/p&gt;
+
+&lt;p&gt;Conway’s Law. The following link is an &lt;a href=&quot;http://haacked.com/archive/2013/05/13/applying-conways-law.aspx&quot;&gt;article on Conway’s Law&lt;/a&gt; and the source for most of this post.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.melconway.com/Home/Conways_Law.html&quot;&gt;Conway’s Law&lt;/a&gt; comes from Melvin Conway, and it states:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Since I am a visual person, the &lt;a href=&quot;http://www.bonkersworld.net/organizational-charts/&quot;&gt;Manu Cornet’s visual interpretation&lt;/a&gt; of this law helps me better understand how this plays out in some of the top companies.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i2.wp.com/josephephillips.com/wp-content/uploads/2015/05/organizational_charts_2.png&quot;&gt;&lt;img class=&quot;  wp-image-536 aligncenter&quot; src=&quot;http://i2.wp.com/josephephillips.com/wp-content/uploads/2015/05/organizational_charts_2.png?resize=433%2C421&quot; alt=&quot;organizational_charts_2&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I like the multiple comparisons, but Google and Apple drive home the concept, I think.&lt;/p&gt;
+
+&lt;p&gt;For example, both companies sell digital content, I.e. music, movies, games, but there sales ‘system’ is inherently connected to their communication structure. Apple has been and hopefully always known for their singular vision. This radiated from Steve Jobs and continues with Tim Cook that first and foremost Apple was a software company. All sales of digital content are made to promote the sale of Hardware. The purchase of digital content, only useable on Apple hardware, from ITunes creates a circular effect that draws you into buying/upgrading you Apple devices. Hence, there System always radiates from a central location.&lt;/p&gt;
+
+&lt;p&gt;For Google, selling digital content is a part of the hierarchy of items that they sell to gain a profit. There communication method is not centrally located, but with more of web of areas overlapping. This creates a radiating effect as communication grows additional overlap and reconnecting is required. They are multiple visions. Saling digital Media is only one part of the greater scheme.&lt;/p&gt;
+
+&lt;p&gt;Interesting! Right! So, with this Law what is  your companies communication model, and how does it play into your systems design?&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/conways-law/&quot;&gt;Does Conway&amp;#8217;s Law effect the way your business designs systems?&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 12, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Create A Plan before Automating&#8230; Importance of Project Management]]></title>
+  <link rel="alternate" type="text/html" href="/create-a-plan-before-automating-importance-of-project-management/" />
+  <id>/create-a-plan-before-automating-importance-of-project-management</id>
+  <published>2015-05-09T00:00:00-04:00</published>
+  <updated>2015-05-09T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Too many times, I see areas or teams wanting to reduce the time creating a widget or developing a single touch solution for a very manual data entry. But, the downside is, is the first thing they want to do is &lt;i&gt;implement&lt;/i&gt; the automation before they understand the full process as been vetted out. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;To be efficient, we need to initiate a project, plan and design a process, execute it, monitor, and control (repeat when necessary), and close the project. This will lead to creating more widgets, reduce humane resources, and avoid making a million widgets wrong with automation. The focus needs to be put on understanding how a widget is first created without systems interaction.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;http://i1.wp.com/upload.wikimedia.org/wikipedia/commons/b/bb/Project_Management_%28phases%29.png?resize=737%2C202&quot; alt=&quot;Project Management Phases&quot; data-recalc-dims=&quot;1&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+   &lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;Image from Wikipedia Shared through Creative Commons&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: #000000; font-family: Calibri; font-size: medium;&quot;&gt;In all I think we need more access to &lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Project_management&quot;&gt;&lt;span style=&quot;color: #0563c1; font-family: Calibri; font-size: medium;&quot;&gt;Project Management&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color: #000000; font-family: Calibri; font-size: medium;&quot;&gt; skills. Obtaining &lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Six_sigma&quot;&gt;&lt;span style=&quot;color: #0563c1; font-family: Calibri; font-size: medium;&quot;&gt;Six Sigma&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color: #000000; font-family: Calibri; font-size: medium;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Project_Management_Professional&quot;&gt;&lt;span style=&quot;color: #0563c1; font-family: Calibri; font-size: medium;&quot;&gt;PMP&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt; certifications is not for everyone, but I do believe teaching these skills is beneficial to any area or company.  &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;There are so many, below are two that I have used over the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pm.stackexchange.com/&quot;&gt;Project Manage StackExchange&lt;/a&gt; is a question and answer site for project managers. It’s 100% free, no registration required.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;&lt;em&gt;The Mythical Man-Month&lt;/em&gt;&lt;/a&gt;  is a book on software engineering and project management by &lt;a href=&quot;http://en.wikipedia.org/wiki/Fred_Brooks&quot; title=&quot;Fred Brooks&quot;&gt;Fred Brooks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/create-a-plan-before-automating-importance-of-project-management/&quot;&gt;Create A Plan before Automating&amp;#8230; Importance of Project Management&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 09, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[My Takeaways on Understanding Software Construction Metaphors]]></title>
+  <link rel="alternate" type="text/html" href="/what-am-i-learning-software-construction-metaphors/" />
+  <id>/what-am-i-learning-software-construction-metaphors</id>
+  <published>2015-05-06T00:00:00-04:00</published>
+  <updated>2015-05-06T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;My Takeaways,&lt;/em&gt; are a collection of information and concepts that I learn through books, programming, and work experiences. In some cases these posts will be just my personal notes. While they may not give you the audience much pleasure in reading, they will serve as my digital resource library.&lt;/p&gt;
+
+&lt;p&gt;The Software Contstruction section will extract information from the book &lt;a href=&quot;http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1404135814&amp;amp;sr=1-2&amp;amp;keywords=software+construction&quot; target=&quot;_blank&quot;&gt;Code Complete &lt;/a&gt;by &lt;a href=&quot;http://www.amazon.com/Steve-McConnell/e/B000APETRK/ref=ntt_athr_dp_pel_1&quot; target=&quot;_blank&quot;&gt;Steve McConnell&lt;/a&gt;.  This book is still one of the most regarded books on this subject. As these notes are coming from the fore-mentioned book &lt;strong&gt;&lt;em&gt;credit is given to the author&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-use-metaphors&quot;&gt;&lt;strong&gt;Why use Metaphors&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignleft wp-image-527 size-medium&quot; src=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/05/cartoon_metaphor-300x230.jpg?fit=300%2C230&quot; alt=&quot;cartoon_metaphor&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By comparing a topic you understand poorly to something you understand better, you come up with insights that result in a better understand of the less-familiar. This use of metaphor is called “modeling”.&lt;/p&gt;
+
+&lt;p&gt;A good metaphor is simple, relates well to other relevant metaphors, and explains much of the experimental evidence and other observed phenomena.&lt;/p&gt;
+
+&lt;p&gt;Software development is not yet mature enough to have a set of standard metaphors. Consequently, it has profusion of complementary and conflicting metaphors. Some are better than others. Some are worse.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&quot;more--&quot;&gt;&lt;!--more--&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;how-to-use-metaphors&quot;&gt;&lt;strong&gt;How to use Metaphors&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;A metaphor serves more as a heuristic than it does as an algorithm.&lt;/p&gt;
+
+&lt;p&gt;An algorithm is a set of well-defined instruction for carrying out a particular task. A heuristic is a technique that helps you look for an answer.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use them to give you insight into your programming problems and processes.&lt;/li&gt;
+  &lt;li&gt;Use them to help you think about programming activates and to help you imagine better ways of doing things.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-are-some-common-software-metaphors&quot;&gt;&lt;strong&gt;What are some Common Software Metaphors&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Penmanship: Writing Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The most primitive metaphor. The writing metaphor suggests that developing a program is like writing a causal letter – you sit down with pen, ink, and paper and write from start to finish. It doesn’t’ require any formal planning, and you figure out what you want to say as you go.&lt;/p&gt;
+
+&lt;p&gt;For small projects, the letter writing metaphor works adequately, but for other purposes it leaves the party early – it does not describe software development fully or adequately. A software project involves many people with many different responsibilities.&lt;/p&gt;
+
+&lt;p&gt;Fred Brooks’ &lt;em&gt;The Mythical Man-Month&lt;/em&gt; (1995) says, “Plan to throw on away: you will, anyhow.” This conjures up an image of a pile of half-written drafts thrown into a wastebasket. But extending this writing metaphor to Software development is poor advice. The trick is to get it right the first time around (reducing costs) – or to take several chances when they’re cheapest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Farming: Growing a System&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The farming metaphor suggest that developing a program is like planting seeds and growing crops – you design a piece, code a piece, test a piece, and add it to the system a little bit at a time. The incremental technique of this metaphor is valuable, but the farming metaphor is terrible.&lt;/p&gt;
+
+&lt;p&gt;The farming analogy is weak and uninformative, and it’s easy to replace with better metaphors. It’s hard to extend the farming metaphor beyond the simple idea of doing things a little bit at a time – fertilizing the system plan, thinning the detailed design, increasing code yields through effective land management, and harvesting the code itself.&lt;/p&gt;
+
+&lt;p&gt;The weakness in the software-farming metaphor is it suggestion that you do not have any direct control over how the software develops.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Oyster Farming: System Accretion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The two metaphors, growing software and software accretion, are closely related. Software accretion is the more insightful. “Accretion” means any growth or increase in size by a gradual external addition or inclusion.&lt;/p&gt;
+
+&lt;p&gt;This metaphor better encompass incremental development. You first make the simplest possible version of the system that will run. Then little by little you add to it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You change each of the dummy classes to real classes.&lt;/li&gt;
+  &lt;li&gt;You drop in code that accepts real input, versus pretend input.&lt;/li&gt;
+  &lt;li&gt;You drop in code that produces real output, versus pretend output.&lt;/li&gt;
+  &lt;li&gt;You add a little bit of code at a time until you have a fully working system.&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/what-am-i-learning-software-construction-metaphors/&quot;&gt;My Takeaways on Understanding Software Construction Metaphors&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[My Takeaways on Software Construction &#8211; The What and Why]]></title>
+  <link rel="alternate" type="text/html" href="/my-takeaways-on-software-construction-the-what-and-why/" />
+  <id>/my-takeaways-on-software-construction-the-what-and-why</id>
+  <published>2015-05-05T00:00:00-04:00</published>
+  <updated>2015-05-05T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;My Takeaways,&lt;/em&gt; are a collection of information and concepts that I learn through books, programming, and work experiences. In some cases these posts will be just my personal notes. While they may not give you the audience much pleasure in reading, they will serve as my digital resource library.&lt;/p&gt;
+
+&lt;p&gt;The Software Contstruction section will extract information from the book &lt;a href=&quot;http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1404135814&amp;amp;sr=1-2&amp;amp;keywords=software+construction&quot; target=&quot;_blank&quot;&gt;Code Complete &lt;/a&gt;by &lt;a href=&quot;http://www.amazon.com/Steve-McConnell/e/B000APETRK/ref=ntt_athr_dp_pel_1&quot; target=&quot;_blank&quot;&gt;Steve McConnell&lt;/a&gt;.  This book is still one of the most regarded books on this subject. As these notes are coming from the fore-mentioned book &lt;strong&gt;&lt;em&gt;credit is given to the author&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Software Construction?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Software Construction is a disciple that covers the creation of working, meaningful software through:&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem definition&lt;/li&gt;
+  &lt;li&gt;Requirements development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Construction Planning&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Software Architecture, or high level design&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Detailed design&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Coding and debugging&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unit testing&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integration testing&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integration&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;System testing&lt;/li&gt;
+  &lt;li&gt;Corrective maintenance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;The &lt;strong&gt;highlighted&lt;/strong&gt; software development activates make up the topics of construction I will be expanding on.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the specific tasks involved in construction are :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Insure groundwork has been completed.&lt;/li&gt;
+  &lt;li&gt;Determine how code will be tested.&lt;/li&gt;
+  &lt;li&gt;Designing and writing classes and routines&lt;/li&gt;
+  &lt;li&gt;Creating and naming variables and named constants&lt;/li&gt;
+  &lt;li&gt;Selecting control structures and organizing blocks of statements&lt;/li&gt;
+  &lt;li&gt;Unit testing, integration testing, and debugging your own code.&lt;/li&gt;
+  &lt;li&gt;Reviewing other team members’ low level designs and code and having them review yours.&lt;/li&gt;
+  &lt;li&gt;Polishing code by carefully formatting and commenting it.&lt;/li&gt;
+  &lt;li&gt;Integrating software components that were created separately.&lt;/li&gt;
+  &lt;li&gt;Tuning code to make it faster and use fewer resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is Software Construction Important?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Construction is a larger part of software development&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Typically takes 30 to 80 percent of the total time spent on a project&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Construction is the central activity in software development&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Requirements and Architecture are done first, with testing done at the end.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;With a focus on construction, the individual programmer’s productivity can improve enormously.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Study by Sackman, Erikson, and Grant showed that the productivity of individual programmers varied by a factor of 10 or 20 during construction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Construction’s product, the source code, is often the only accurate description of the software.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;In many projects, the only documentation available to programmers is the code.&lt;/li&gt;
+      &lt;li&gt;Requirements and design documents can go out of date, but the source code is always up to date.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Construction is the only activity that’s guaranteed to be done.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;No matter how rushed or poorly planned a project is, skipped requirements/design and dropped testing, you can’t drop construction.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/my-takeaways-on-software-construction-the-what-and-why/&quot;&gt;My Takeaways on Software Construction &amp;#8211; The What and Why&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Transforming your code from Red to Green by always failing first.]]></title>
+  <link rel="alternate" type="text/html" href="/transforming-your-code-from-red-to-green-by-always-failing-first/" />
+  <id>/transforming-your-code-from-red-to-green-by-always-failing-first</id>
+  <published>2015-05-01T00:00:00-04:00</published>
+  <updated>2015-05-01T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img class=&quot;alignright  wp-image-510&quot; src=&quot;/assets/img/tdd_flow1.gif&quot; alt=&quot;tdd_flow[1]&quot; data-recalc-dims=&quot;1&quot; /&gt;I was working through &lt;a href=&quot;http://www.stewshack.com/bowlinggame/gutterball&quot;&gt;Bowling Game Kata &lt;/a&gt; trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: &lt;a href=&quot;http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html&quot;&gt;Uncle Bob’s Transformation Priority Premise.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The heart of this article was the following statement&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;“As the tests get more specific, the code gets more generic.”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The understanding that refactoring simple changed the structure of code without changing it’s behavior, but to read about the spectrum that t&lt;em&gt;ransformations&lt;/em&gt; changed the behavior of code to get it from Red to Green. Started to make sense.&lt;/p&gt;
+
+&lt;p&gt;At the heart of this discussion is when using TDD, production code goes through a sequence of transformations. The thought being that it goes &lt;em&gt;from specific to generic&lt;/em&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;And by going in a specific order, or has the writer says Priority Premise, using transformations writing tests would be easier. Below is the proposed order, and a quick snippet from the article.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…the idea that transformations on the top of the list should be preferred to those that are lower. It is better (or simpler) to change a constant into a variable than it is to add an if statement. So when making a test pass, you try to do so with transformations that are simpler (higher on the list) than those that are more complex.&lt;/p&gt;
+
+  &lt;p&gt;What’s more, when you pose a test, you try to pose one that allows simpler transformations rather than complex transformations; since the more complexity required by the test the larger the risk you take to get that test to pass.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;The Priority Premise&lt;/strong&gt;&lt;br /&gt;
+({}–&amp;gt;nil) no code at all-&amp;gt;code that employs nil&lt;br /&gt;
+(nil-&amp;gt;constant)&lt;br /&gt;
+(constant-&amp;gt;constant+) a simple constant to a more complex constant&lt;br /&gt;
+(constant-&amp;gt;scalar) replacing a constant with a variable or an argument&lt;br /&gt;
+(statement-&amp;gt;statements) adding more unconditional statements.&lt;br /&gt;
+(unconditional-&amp;gt;if) splitting the execution path&lt;br /&gt;
+(scalar-&amp;gt;array)&lt;br /&gt;
+(array-&amp;gt;container)&lt;br /&gt;
+(statement-&amp;gt;recursion)&lt;br /&gt;
+(if-&amp;gt;while)&lt;br /&gt;
+(expression-&amp;gt;function) replacing an expression with a function or algorithm&lt;br /&gt;
+(variable-&amp;gt;assignment) replacing the value of a variable.&lt;/p&gt;
+
+&lt;p&gt;Overall, this is an interesting concept that quickly gives me a checklist of steps to take when starting out. Even if it is a reminder that all tests should start by failing due to an empty/null return.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/transforming-your-code-from-red-to-green-by-always-failing-first/&quot;&gt;Transforming your code from Red to Green by always failing first.&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Freedom Friday!   Less Emails. More Work&#8230;  Creating a Zero Inbox.]]></title>
+  <link rel="alternate" type="text/html" href="/freedom-friday-less-emails-more-work-creating-a-zero-inbox/" />
+  <id>/freedom-friday-less-emails-more-work-creating-a-zero-inbox</id>
+  <published>2015-04-23T00:00:00-04:00</published>
+  <updated>2015-04-23T00:00:00-04:00</updated>
+  <author>
+    <name></name>
+    <uri></uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I ran across this story. &lt;a href=&quot;http://www.forbes.com/sites/jacobmorgan/2014/09/29/how-this-company-is-trying-to-eradicate-email/&quot;&gt;How This Company Is Trying To Eradicate Email&lt;/a&gt; It got me thinking about &lt;em&gt;zeroing out our inboxes and reducing time spent on email&lt;/em&gt;. Could you imagine, clearing out your inbox daily like home mailboxes!?!&lt;/p&gt;
+
+&lt;p&gt;We can all agree with this statement from the article….&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“… 10 percent of the 200 messages … received on an average day were useful, and that 18 percent were spam. Managers spent between five and 20 hours a week reading and writing emails.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In saying all this, I wanted to share how I have implemented Merlin Mann’s &lt;a href=&quot;http://www.43folders.com/izero&quot;&gt;Inbox Zero&lt;/a&gt; over the last year by following these simple rules:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.43folders.com/2006/03/14/delete/&quot;&gt;Delete it&lt;/a&gt; &lt;/strong&gt; – yes, sometimes this is the correct step… Let it go, that is what that link on the internet said. J&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delegate/Forward it &lt;/strong&gt; – if it’s not your area, get it to the right person.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Do it&lt;/strong&gt; – Two – Minute Rule. If you can do it quickly. Do it. Quick WIN!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date/Time it&lt;/strong&gt; – Set up a time to do it.
+    &lt;ol&gt;
+      &lt;li&gt;To accomplish this I use a combination of Smart Search Folders, Categories, and Follow-ups.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Finally, &lt;strong&gt;archive the finished product&lt;/strong&gt;… Not the email trail.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By doing this, I have limited the time I use to monitor email and be more organized within the work day.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/freedom-friday-less-emails-more-work-creating-a-zero-inbox/&quot;&gt;Freedom Friday!   Less Emails. More Work&amp;#8230;  Creating a Zero Inbox.&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on April 23, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Author Override]]></title>
+  <link rel="alternate" type="text/html" href="/author-override/" />
+  <id>/author-override</id>
+  <published>2014-07-31T00:00:00-04:00</published>
+  <updated>2014-07-31T00:00:00-04:00</updated>
+  <author>
+    <name>Billy Rick</name>
+    <uri></uri>
+    <email>billy@rick.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;For those of you who may have content written by multiple authors on your site you can now assign different authors to each post if desired.&lt;/p&gt;
+
+&lt;p&gt;Previously the theme used a global author for the entire site and those attributes would be used in all bylines, social networking links, Twitter Card attribution, and Google Authorship. These &lt;code&gt;owner&lt;/code&gt; variables were defined in &lt;code&gt;config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Start by modifying or creating a new &lt;code&gt;authors.yml&lt;/code&gt; file in the &lt;code&gt;_data&lt;/code&gt; folder and add your authors using the following format.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Authors&lt;/span&gt;
+
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy_rick&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Billy Rick&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;web&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;http://thewhip.com&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy@rick.com&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;What&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;do&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;you&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;want,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;jewels?&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;am&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;very&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;extravagant&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;man.&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio-photo-2.jpg&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;extravagantman&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;BillyRick&lt;/span&gt;
+
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;cornelius_fiddlebone&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Cornelius Fiddlebone&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;cornelius@thewhip.com&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;I&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;ordered&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;what?&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio-photo.jpg&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;rhymeswithsackit&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;CorneliusFiddlebone&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To assign Billy Rick as an author for our post. You’d add the following YAML front matter to a post:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy_rick&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/author-override/&quot;&gt;Author Override&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on July 31, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
+  <link rel="alternate" type="text/html" href="/code-highlighting-post/" />
+  <id>/code-highlighting-post</id>
+  <updated>2014-09-14T00:00:00-00:00</updated>
+  <published>2013-08-16T00:00:00-04:00</published>
+  
+  <author>
+    <name>Joseph E Phillips</name>
+    <uri></uri>
+    <email>joseph@josephephillips.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pygments-code-blocks&quot;&gt;Pygments Code Blocks&lt;/h3&gt;
+
+&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_pygments.scss&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pagination&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navigation&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    {% if page.previous %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.previous.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    {% endif %}
+    {% if page.next %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.next.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    {% endif %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;_layouts&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_index.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Tagged: &amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_suffix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;amp;#8211;&amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;title&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;description&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
+    {% if page.previous %}
+        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
+    {% endif %}
+    {% if page.next %}
+        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
+    {% endif %}
+&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h3&gt;
+
+&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
+    {% if page.previous %}
+        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
+    {% endif %}
+    {% if page.next %}
+        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
+    {% endif %}
+&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;module Jekyll
+  class TagIndex &amp;lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = &#39;index.html&#39;
+      self.process(@name)
+      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
+      self.data[&#39;tag&#39;] = tag
+      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
+      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;
+      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
+      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
+    end
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h3&gt;
+
+&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Sample Link Post]]></title>
+  <link rel="alternate" type="text/html" href="/sample-link-post/" />
+  <id>/sample-link-post</id>
+  <published>2013-08-12T00:00:00-04:00</published>
+  <updated>2013-08-12T00:00:00-04:00</updated>
+  <author>
+    <name>Joseph E Phillips</name>
+    <uri></uri>
+    <email>joseph@josephephillips.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;http://www.mademistakes.com&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
+  <link rel="alternate" type="text/html" href="/readability-feature-post/" />
+  <id>/readability-feature-post</id>
+  <published>2013-05-23T00:00:00-04:00</published>
+  <updated>2013-05-23T00:00:00-04:00</updated>
+  <author>
+    <name>Joseph E Phillips</name>
+    <uri></uri>
+    <email>joseph@josephephillips.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. &lt;em&gt;Ea fashion axe &lt;a href=&quot;#&quot;&gt;Marfa cillum aliquip&lt;/a&gt;. Retro Bushwick keytar cliche.&lt;/em&gt; Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+
+&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. &lt;strong&gt;&lt;a href=&quot;#&quot;&gt;Terry Richardson&lt;/a&gt; shabby chic +1&lt;/strong&gt;, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
+  &lt;li&gt;Labore viral forage&lt;/li&gt;
+  &lt;li&gt;Tote bag selvage&lt;/li&gt;
+  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+
+&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+
+&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+
+&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+
+&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[A Post with Images]]></title>
+  <link rel="alternate" type="text/html" href="/sample-post-images/" />
+  <id>/sample-post-images</id>
+  <published>2013-05-22T00:00:00-04:00</published>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <author>
+    <name>Joseph E Phillips</name>
+    <uri></uri>
+    <email>joseph@josephephillips.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
+
+&lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
+
+&lt;h4 id=&quot;one-up&quot;&gt;One Up&lt;/h4&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+
+&lt;h4 id=&quot;two-up&quot;&gt;Two Up&lt;/h4&gt;
+
+&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;half&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1-large.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2-large.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;three-up&quot;&gt;Three Up&lt;/h4&gt;
+
+&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;third&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-3.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
+	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
+  <link rel="alternate" type="text/html" href="/readability-post/" />
+  <id>/readability-post</id>
+  <published>2012-05-22T00:00:00-04:00</published>
+  <updated>2012-05-22T00:00:00-04:00</updated>
+  <author>
+    <name>Joseph E Phillips</name>
+    <uri></uri>
+    <email>joseph@josephephillips.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+
+&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
+  &lt;li&gt;Labore viral forage&lt;/li&gt;
+  &lt;li&gt;Tote bag selvage&lt;/li&gt;
+  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+
+&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+
+&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+
+&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+
+&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Joseph E Phillips at &lt;a href=&quot;&quot;&gt;Joseph E Phillips&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

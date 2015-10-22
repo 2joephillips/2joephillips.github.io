@@ -1,60 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	  <url>
-		<loc>http://2joephillips.github.io/comic_vine_api_examples_part2/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/my-set-up-sublime-text-3-the-best-text-editor/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/how-to-use-comic-vine-api-part-1/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/kataday_stringcalculator/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/kataday-turkey-countdown/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/solve-5-problems-in-25-minutes/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/code-kata-today-kataday/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/my-takeaways-on-version-control-important/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/conways-law/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/create-a-plan-before-automating-importance-of-project-management/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/what-am-i-learning-software-construction-metaphors/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/my-takeaways-on-software-construction-the-what-and-why/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/transforming-your-code-from-red-to-green-by-always-failing-first/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://2joephillips.github.io/freedom-friday-less-emails-more-work-creating-a-zero-inbox/</loc>
-	  </url>
-	
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/comic_vine_api_examples_part2/</loc>
+    <lastmod>2015-06-23T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/my-set-up-sublime-text-3-the-best-text-editor/</loc>
+    <lastmod>2015-06-05T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/how-to-use-comic-vine-api-part-1/</loc>
+    <lastmod>2015-05-26T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/kataday_stringcalculator/</loc>
+    <lastmod>2015-05-22T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/kataday-turkey-countdown/</loc>
+    <lastmod>2015-05-21T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/solve-5-problems-in-25-minutes/</loc>
+    <lastmod>2015-05-20T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/code-kata-today-kataday/</loc>
+    <lastmod>2015-05-19T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/my-takeaways-on-version-control-important/</loc>
+    <lastmod>2015-05-14T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/conways-law/</loc>
+    <lastmod>2015-05-12T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/create-a-plan-before-automating-importance-of-project-management/</loc>
+    <lastmod>2015-05-09T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/what-am-i-learning-software-construction-metaphors/</loc>
+    <lastmod>2015-05-06T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/my-takeaways-on-software-construction-the-what-and-why/</loc>
+    <lastmod>2015-05-05T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/transforming-your-code-from-red-to-green-by-always-failing-first/</loc>
+    <lastmod>2015-05-01T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/freedom-friday-less-emails-more-work-creating-a-zero-inbox/</loc>
+    <lastmod>2015-04-23T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/author-override/</loc>
+    <lastmod>2014-07-31T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/code-highlighting-post/</loc>
+    <lastmod>2013-08-16T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/sample-link-post/</loc>
+    <lastmod>2013-08-12T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/readability-feature-post/</loc>
+    <lastmod>2013-05-23T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/sample-post-images/</loc>
+    <lastmod>2013-05-22T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/readability-post/</loc>
+    <lastmod>2012-05-22T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/sample-post/</loc>
+    <lastmod>2011-03-10T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2015-10-21T22:12:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2015-10-21T22:12:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2015-10-21T22:12:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/theme-setup/</loc>
+    <lastmod>2015-10-21T22:12:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2015-10-21T22:12:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/post-index 2.html</loc>
+    <lastmod>2015-10-21T22:08:09-04:00</lastmod>
+  </url>
+  <url>
+    <loc>/post-index.html</loc>
+    <lastmod>2015-10-21T22:08:09-04:00</lastmod>
+  </url>
 </urlset>

@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About Me
+  url: /about/
+
+- title: blog
+  url: /blog/
+
+- title: Series
+  url: /series/
+  
+- title: Theme Setup
+  url: /theme-setup/
+
+- title: Made Mistakes
+  url: http://mademistakes.com

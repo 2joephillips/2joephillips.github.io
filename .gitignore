@@ -3,7 +3,6 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-
 Gemfile.lock
 test/dest
 *.gem

@@ -24,7 +24,6 @@ In saying all this, I wanted to share how I have implemented Merlin Mann’s [In
   3. **Do it** – Two – Minute Rule. If you can do it quickly. Do it. Quick WIN!
   4. **Date/Time it** – Set up a time to do it. 
       1. To accomplish this I use a combination of Smart Search Folders, Categories, and Follow-ups.
-      2. If someone wants, I will be glad to show how I do this… or this link provides some detail : [How I Get to Inbox Zero in Outlook][4]
   5. Finally, **archive the finished product**… Not the email trail.
 
 By doing this, I have limited the time I use to monitor email and be more organized within the work day.
@@ -36,4 +35,3 @@ By doing this, I have limited the time I use to monitor email and be more organi
  [1]: http://www.forbes.com/sites/jacobmorgan/2014/09/29/how-this-company-is-trying-to-eradicate-email/
  [2]: http://www.43folders.com/izero
  [3]: http://www.43folders.com/2006/03/14/delete/
- [4]: http://josephephillips.com/wp-admin/How%20I%20Get%20to%20Inbox%20Zero%20in%20Outlook

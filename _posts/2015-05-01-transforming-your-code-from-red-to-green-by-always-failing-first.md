@@ -6,7 +6,7 @@ permalink: /transforming-your-code-from-red-to-green-by-always-failing-first/
 categories:
   - Test Driven Development
 ---
-<img class="alignright  wp-image-510" src="http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/05/tdd_flow1.gif?resize=231%2C242" alt="tdd_flow[1]" data-recalc-dims="1" />I was working through [Bowling Game Kata ][1] trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: [Uncle Bob&#8217;s Transformation Priority Premise.][2]
+<img class="alignright  wp-image-510" src="/assets/img/tdd_flow1.gif" alt="tdd_flow[1]" data-recalc-dims="1" />I was working through [Bowling Game Kata ][1] trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: [Uncle Bob&#8217;s Transformation Priority Premise.][2]
 
 The heart of this article was the following statement
 
@@ -16,7 +16,6 @@ The understanding that refactoring simple changed the structure of code without 
 
 At the heart of this discussion is when using TDD, production code goes through a sequence of transformations. The thought being that it goes *from specific to generic*.<!--more-->
 
-&nbsp;
 
 And by going in a specific order, or has the writer says Priority Premise, using transformations writing tests would be easier. Below is the proposed order, and a quick snippet from the article.
 

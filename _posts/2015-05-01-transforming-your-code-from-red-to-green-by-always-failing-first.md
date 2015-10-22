@@ -4,7 +4,6 @@ author: 2joes
 layout: post
 permalink: /transforming-your-code-from-red-to-green-by-always-failing-first/
 categories:
-  - Programming
   - Test Driven Development
 ---
 <img class="alignright  wp-image-510" src="http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/05/tdd_flow1.gif?resize=231%2C242" alt="tdd_flow[1]" data-recalc-dims="1" />I was working through [Bowling Game Kata ][1] trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: [Uncle Bob&#8217;s Transformation Priority Premise.][2]

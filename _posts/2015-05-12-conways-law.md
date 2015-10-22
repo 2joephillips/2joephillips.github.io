@@ -5,7 +5,6 @@ layout: post
 permalink: /conways-law/
 categories:
   - Design
-  - Programming
 ---
 I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.
 

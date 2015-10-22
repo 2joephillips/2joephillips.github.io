@@ -4,7 +4,7 @@ author: 2joes
 layout: post
 permalink: /my-set-up-sublime-text-3-the-best-text-editor/
 categories:
-  - Programming
+  - Programming Tools
 ---
 I have been using Sublime Text 2 for so long I got comfortable with it, and it is my favorite text editor. I knew there was a new version, but I never crossed over.  So, I upgraded and I have been using it. I am going to compile  a couple quick hit items for setting up Sublime Text 3*.*
 

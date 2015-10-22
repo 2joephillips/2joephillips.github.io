@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: minimal
+title: "Blog"
+permalink: /blog/index.html
+image: '/assets/img/series.png'
+description: "Take a look at all my posts"
 ---
 
-<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="content">
-        <h1 align="center">
-            <span class="day">Recent Posts</span>
-        </h1>
-    </div>
-   {% for post in site.posts limit: 5 %}
+   {% for post in site.posts %}
         <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
                     <meta itemprop="datePublished" content="{{post.date}}">
@@ -36,5 +34,3 @@ layout: default
                 </div>
         </article>
     {% endfor %}
-    
-</main>

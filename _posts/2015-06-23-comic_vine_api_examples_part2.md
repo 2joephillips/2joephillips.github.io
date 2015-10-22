@@ -5,7 +5,6 @@ layout: post
 permalink: /comic_vine_api_examples_part2/
 categories:
   - API Calls
-  - Programming
 ---
 Following up on <a href="http://josephephillips.com/how-to-use-comic-vine-api-part-1/" target="_blank">Part 1</a>, this is my series on learning how to use <a href="http://www.comicvine.com/api/" target="_blank">Comic Vine’s API</a>. In the first post, I talked about basic API set-up, obtaining your <a href="https://auth.comicvine.com/signup/" target="_blank">own API Key</a>, making basic API calls, sorting the data returned, and limiting fields returned using the filed list. T
 

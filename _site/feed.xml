@@ -3,23 +3,21 @@
   <channel>
     <title></title>
     <description>A blog about lorem ipsum dolor sit amet</description>
-    <link>http://2joephillips.github.io//</link>
-    <atom:link href="http://2joephillips.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Oct 2015 19:57:31 -0400</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2015 19:57:31 -0400</lastBuildDate>
+    <link>http://2joephillips.github.io/</link>
+    <atom:link href="http://2joephillips.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Oct 2015 20:03:51 -0400</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2015 20:03:51 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Comic Vine API Examples &amp;#8230;.. Part 2</title>
         <description>&lt;p&gt;Following up on &lt;a href=&quot;http://josephephillips.com/how-to-use-comic-vine-api-part-1/&quot; target=&quot;_blank&quot;&gt;Part 1&lt;/a&gt;, this is my series on learning how to use &lt;a href=&quot;http://www.comicvine.com/api/&quot; target=&quot;_blank&quot;&gt;Comic Vine’s API&lt;/a&gt;. In the first post, I talked about basic API set-up, obtaining your &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;own API Key&lt;/a&gt;, making basic API calls, sorting the data returned, and limiting fields returned using the filed list. T&lt;/p&gt; &lt;p&gt;Below is the information that will help you understand these posts.&lt;/p&gt; &lt;p&gt;&lt;span class=&quot;collapseomatic &quot; id=&quot;id1830&quot; tabindex=&quot;0&quot; title=&quot;Formating and Resource information&quot;&gt;Formating and Resource information&lt;/span&gt;&lt;/p&gt; &lt;div id=&quot;target-id1830&quot; class=&quot;collapseomatic_content &quot;&gt; &lt;h3&gt; Abbreviations &lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;em&gt;&lt;strong&gt;YOUR_APIKEY&lt;/strong&gt;&lt;/em&gt; = Your Personal API Key. Can be acquired &lt;a href=&quot;https://auth.comicvine.com/signup/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. &lt;/li&gt;...</description>
         <pubDate>Tue, 23 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//comic_vine_api_examples_part2/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//comic_vine_api_examples_part2/</guid>
+        <link>http://2joephillips.github.io/comic_vine_api_examples_part2/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/comic_vine_api_examples_part2/</guid>
         
         
         <category>api calls</category>
-        
-        <category>programming</category>
         
       </item>
     
@@ -27,11 +25,11 @@
         <title>My Set-up Sublime Text 3 the Best Text Editor</title>
         <description>&lt;p&gt;I have been using Sublime Text 2 for so long I got comfortable with it, and it is my favorite text editor. I knew there was a new version, but I never crossed over.  So, I upgraded and I have been using it. I am going to compile  a couple quick hit items for setting up Sublime Text 3&lt;em&gt;.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;img-classalignleft-wp-image-572-size-full-srchttpi1wpcomjosephephillipscomwp-contentuploads201506sublime-logojpgfit2002c200-altsublime-logo-data-recalc-dims1-1basic-installation&quot;&gt;&lt;a href=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg&quot;&gt;&lt;img class=&quot;alignleft wp-image-572 size-full&quot; src=&quot;http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/06/sublime-logo.jpg?fit=200%2C200&quot; alt=&quot;sublime-logo&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Basic Installation&lt;/h2&gt; &lt;p&gt;Use one of the two links, below to access the download page. From there, it is SIMPLE.&lt;/p&gt; &lt;p&gt;Sublime Tex 3 &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;Download Page&lt;/a&gt;&lt;/p&gt; &lt;p&gt;As a reminder Sublime Text (either version) has a...</description>
         <pubDate>Fri, 05 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//my-set-up-sublime-text-3-the-best-text-editor/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//my-set-up-sublime-text-3-the-best-text-editor/</guid>
+        <link>http://2joephillips.github.io/my-set-up-sublime-text-3-the-best-text-editor/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/my-set-up-sublime-text-3-the-best-text-editor/</guid>
         
         
-        <category>programming</category>
+        <category>programming tools</category>
         
       </item>
     
@@ -39,13 +37,11 @@
         <title>How to use Comic Vine API &amp;#8211; Part 1</title>
         <description>&lt;p&gt;I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.&lt;/p&gt; &lt;p&gt;Luckily, &lt;a href=&quot;http://comicvine.com&quot; target=&quot;_blank&quot;&gt;Comic Vine&lt;/a&gt; has more metadata than I could ever need. Plus, they have a free &lt;a href=&quot;http://comicvine.com/api&quot; target=&quot;_blank&quot;&gt;Web API &lt;/a&gt;that gives access to all their data, which is a perfect solution for what I am trying to accomplish.&lt;/p&gt; &lt;p&gt;The bad news, I am a little rusty on Web API, so I needed to find some Comic Vine API Examples to help me get started. My first idea was...</description>
         <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//how-to-use-comic-vine-api-part-1/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//how-to-use-comic-vine-api-part-1/</guid>
+        <link>http://2joephillips.github.io/how-to-use-comic-vine-api-part-1/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/how-to-use-comic-vine-api-part-1/</guid>
         
         
         <category>api calls</category>
-        
-        <category>programming</category>
         
       </item>
     
@@ -53,8 +49,8 @@
         <title>KataDay &amp;#8211; StringCalculator</title>
         <description>&lt;p&gt;For my last day of KataDay, I thought would continue on my TDD Kata’s and decided to do, &lt;a href=&quot;http://osherove.com/tdd-kata-1/&quot;&gt;Roy Osherove’s String Calculator&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;This is a kata that allows you work through the steps of refactoring and testing first.&lt;/p&gt; &lt;h3 id=&quot;instructions-from-roy8217s-kata&quot;&gt;Instructions from Roy’s Kata:&lt;/h3&gt; &lt;p&gt;Before you start:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Try not to read ahead.&lt;/li&gt; &lt;li&gt;Do one task at a time. The trick is to learn to work incrementally.&lt;/li&gt; &lt;li&gt;Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata.&lt;/li&gt; &lt;/ul&gt; &lt;!--more--&gt; &lt;p&gt;String Calculator&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Create a simple String calculator with a method int...</description>
         <pubDate>Fri, 22 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//kataday_stringcalculator/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//kataday_stringcalculator/</guid>
+        <link>http://2joephillips.github.io/kataday_stringcalculator/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/kataday_stringcalculator/</guid>
         
         
         <category>kataday</category>
@@ -67,8 +63,8 @@
         <title>Kataday &amp;#8230; Turkey Countdown</title>
         <description>&lt;p&gt;In honor of one of my favorite countdowns, &lt;a href=&quot;http://www.youtube.com/watch?v=tqpPFT-F-bs&quot;&gt;Slapsgiving&lt;/a&gt;, we will do a modified NASA Countdown, but call it Turkey Countdown for today’s KataDay and add a splash of &lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot; target=&quot;_blank&quot;&gt;TDD &lt;/a&gt;for extra effort.&lt;/p&gt; &lt;h2 id=&quot;code-kata&quot;&gt;&lt;strong&gt;Code Kata:&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Momma wants to fry yet another turkey. As the official fryer of the turkey, you are very excited. So excited that about this responsibility you decide to create your one timer.&lt;/p&gt; &lt;p&gt;But &lt;strong&gt;the frying is only minutes away&lt;/strong&gt;. You have to create the timer in 5 minutes – or the turkey will be over cooked and lost!&lt;!--more--&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The turkey counter  will tell you where to start – then count to...</description>
         <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//kataday-turkey-countdown/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//kataday-turkey-countdown/</guid>
+        <link>http://2joephillips.github.io/kataday-turkey-countdown/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/kataday-turkey-countdown/</guid>
         
         
         <category>kataday</category>
@@ -81,8 +77,8 @@
         <title>Solve 5 problems in 25 minutes</title>
         <description>&lt;p&gt;The whole premise of KataDays are to take simple problems, and use them as a learning experience to improve my coding/algorithm/critical thinking. SO, to make make today interesting, I found 5 simple problems, at the end of this post , and I am giving my self 5 minutes per problem to solve each one….&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;Overall, this is what a great exercise, it really forced me to think on my feet. While the exercises were inherently easy, they each had their little nuances. I suggest do these Katas with one or more programmers and see what variances exists.  For example, one programmer was able to answer Exercise 5 in &lt;strong&gt;ONE...</description>
         <pubDate>Wed, 20 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//solve-5-problems-in-25-minutes/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//solve-5-problems-in-25-minutes/</guid>
+        <link>http://2joephillips.github.io/solve-5-problems-in-25-minutes/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/solve-5-problems-in-25-minutes/</guid>
         
         
         <category>kataday</category>
@@ -93,8 +89,8 @@
         <title>Code Kata + today = Kataday!</title>
         <description>&lt;p&gt;I originally heard of Dave Thomas’ &lt;a href=&quot;http://codekata.pragprog.com/&quot;&gt;Code Kata&lt;/a&gt; months ago. The thought behind Code Kata is to take simple problems, and use them as a learning experience to improve ones coding/algorithm/critical thinking. At the time, I thought it would be nice idea to do, but I did not have the drive to actually proceed with doing any. Jump forward, and I have decided to revisit this subject. I hope this week is to do 5 days of Code Kata and post my experiences here. Aftwards, I will do these little Code Kata’s any day during the week. Then share what I have learned....</description>
         <pubDate>Tue, 19 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//code-kata-today-kataday/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//code-kata-today-kataday/</guid>
+        <link>http://2joephillips.github.io/code-kata-today-kataday/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/code-kata-today-kataday/</guid>
         
         
         <category>kataday</category>
@@ -102,14 +98,14 @@
       </item>
     
       <item>
-        <title>Learning Version Control &amp;#8211; Why is it important?</title>
+        <title>My Takeaways on Version Control &amp;#8211; Why is it important?</title>
         <description>&lt;p&gt;Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?&lt;/p&gt; &lt;p&gt;It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad’s post &lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;A Visual Guide to Version Control&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://betterexplained.com/articles/a-visual-guide-to-version-control/&quot;&gt;&lt;img class=&quot;aligncenter&quot; src=&quot;http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350&quot; alt=&quot;&quot; name=&quot;ebba8eb4-8af3-42cd-a7e2-2716654f99e5&quot; align=&quot;center&quot; border=&quot;0&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;!--more--&gt; &lt;p&gt;&lt;strong&gt;You always have some sort of Version Control&lt;/strong&gt;. Some are just better than others.&lt;/p&gt; &lt;p&gt;You just might have not...</description>
         <pubDate>Thu, 14 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//learning-version-control-important/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//learning-version-control-important/</guid>
+        <link>http://2joephillips.github.io/my-takeaways-on-version-control-important/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/my-takeaways-on-version-control-important/</guid>
         
         
-        <category>uncategorized</category>
+        <category>my takeaways</category>
         
       </item>
     
@@ -117,13 +113,11 @@
         <title>Does Conway&amp;#8217;s Law effect the way your business designs systems?</title>
         <description>&lt;p&gt;I have been doing a lot of reading lately, and there are several concepts that I have enjoyed learning. I will share these ideas at random, so I hope you enjoy.&lt;/p&gt; &lt;p&gt;Conway’s Law. The following link is an &lt;a href=&quot;http://haacked.com/archive/2013/05/13/applying-conways-law.aspx&quot;&gt;article on Conway’s Law&lt;/a&gt; and the source for most of this post.&lt;/p&gt; &lt;p&gt;The &lt;a href=&quot;http://www.melconway.com/Home/Conways_Law.html&quot;&gt;Conway’s Law&lt;/a&gt; comes from Melvin Conway, and it states:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since I am a visual person, the &lt;a href=&quot;http://www.bonkersworld.net/organizational-charts/&quot;&gt;Manu Cornet’s visual interpretation&lt;/a&gt; of this law helps...</description>
         <pubDate>Tue, 12 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//conways-law/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//conways-law/</guid>
+        <link>http://2joephillips.github.io/conways-law/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/conways-law/</guid>
         
         
         <category>design</category>
-        
-        <category>programming</category>
         
       </item>
     
@@ -131,8 +125,8 @@
         <title>Create A Plan before Automating&amp;#8230; Importance of Project Management</title>
         <description>&lt;p&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Too many times, I see areas or teams wanting to reduce the time creating a widget or developing a single touch solution for a very manual data entry. But, the downside is, is the first thing they want to do is &lt;i&gt;implement&lt;/i&gt; the automation before they understand the full process as been vetted out. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;To be efficient, we need to initiate a project, plan and design a process, execute it, monitor, and control (repeat when necessary), and close the project. This will lead to creating more widgets, reduce humane resources,...</description>
         <pubDate>Sat, 09 May 2015 00:00:00 -0400</pubDate>
-        <link>http://2joephillips.github.io//create-a-plan-before-automating-importance-of-project-management/</link>
-        <guid isPermaLink="true">http://2joephillips.github.io//create-a-plan-before-automating-importance-of-project-management/</guid>
+        <link>http://2joephillips.github.io/create-a-plan-before-automating-importance-of-project-management/</link>
+        <guid isPermaLink="true">http://2joephillips.github.io/create-a-plan-before-automating-importance-of-project-management/</guid>
         
         
         <category>project management</category>

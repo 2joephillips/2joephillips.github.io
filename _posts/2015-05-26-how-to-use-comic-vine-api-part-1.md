@@ -5,7 +5,6 @@ layout: post
 permalink: /how-to-use-comic-vine-api-part-1/
 categories:
   - API Calls
-  - Programming
 ---
 I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.
 

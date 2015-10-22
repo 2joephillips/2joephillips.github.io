@@ -1,10 +1,10 @@
 ---
-title: 'Learning Version Control &#8211; Why is it important?'
+title: 'My Takeaways on Version Control &#8211; Why is it important?'
 author: 2joes
 layout: post
-permalink: /learning-version-control-important/
+permalink: /my-takeaways-on-version-control-important/
 categories:
-  - Uncategorized
+  - My Takeaways
 ---
 Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?
 

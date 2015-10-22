@@ -2,7 +2,7 @@
   
     {
       "title"    : "Comic Vine API Examples &amp;#8230;.. Part 2",
-      "category" : "api callsprogramming",
+      "category" : "api calls",
       "tags"     : "",
       "url"      : "/comic_vine_api_examples_part2/",
       "date"     : "23 Jun 2015"
@@ -10,7 +10,7 @@
   
     {
       "title"    : "My Set-up Sublime Text 3 the Best Text Editor",
-      "category" : "programming",
+      "category" : "programming tools",
       "tags"     : "",
       "url"      : "/my-set-up-sublime-text-3-the-best-text-editor/",
       "date"     : "05 Jun 2015"
@@ -18,7 +18,7 @@
   
     {
       "title"    : "How to use Comic Vine API &amp;#8211; Part 1",
-      "category" : "api callsprogramming",
+      "category" : "api calls",
       "tags"     : "",
       "url"      : "/how-to-use-comic-vine-api-part-1/",
       "date"     : "26 May 2015"
@@ -57,16 +57,16 @@
     } ,
   
     {
-      "title"    : "Learning Version Control &amp;#8211; Why is it important?",
-      "category" : "uncategorized",
+      "title"    : "My Takeaways on Version Control &amp;#8211; Why is it important?",
+      "category" : "my takeaways",
       "tags"     : "",
-      "url"      : "/learning-version-control-important/",
+      "url"      : "/my-takeaways-on-version-control-important/",
       "date"     : "14 May 2015"
     } ,
   
     {
       "title"    : "Does Conway&amp;#8217;s Law effect the way your business designs systems?",
-      "category" : "designprogramming",
+      "category" : "design",
       "tags"     : "",
       "url"      : "/conways-law/",
       "date"     : "12 May 2015"
@@ -98,7 +98,7 @@
   
     {
       "title"    : "Transforming your code from Red to Green by always failing first.",
-      "category" : "programmingtest driven development",
+      "category" : "test driven development",
       "tags"     : "",
       "url"      : "/transforming-your-code-from-red-to-green-by-always-failing-first/",
       "date"     : "01 May 2015"

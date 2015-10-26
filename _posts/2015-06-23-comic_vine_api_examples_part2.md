@@ -24,10 +24,10 @@ Below is the information that will help you understand these posts.
       <em><strong>URL</strong></em> = The Comic Vine API address is <a href="http://www.comicvine.com/api" target="_blank">www.comicvine.com/api</a>
     </li>
     <li>
-      <strong><Resources> </strong>= The Comic Vine Resources, sample below
+      <strong> Resources  </strong>= The Comic Vine Resources, sample below
     </li>
     <li>
-      <strong><Field_List> </strong>=  Any field within the resource being called
+      <strong>Field_List</strong>=  Any field within the resource being called
     </li>
   </ul>
   

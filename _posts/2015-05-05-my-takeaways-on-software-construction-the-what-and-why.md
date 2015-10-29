@@ -11,7 +11,7 @@ The Software Contstruction section will extract information from the book <a h
 
 **What is Software Construction?**
 
-Software Construction is a disciple that covers the creation of working, meaningful software through:<!--more-->
+Software Construction is a disciple that covers the creation of working, meaningful software through:
 
   * Problem definition
   * Requirements development
@@ -53,5 +53,3 @@ Some of the specific tasks involved in construction are :
       * Requirements and design documents can go out of date, but the source code is always up to date.
   * **Construction is the only activity that’s guaranteed to be done.** 
       * No matter how rushed or poorly planned a project is, skipped requirements/design and dropped testing, you can’t drop construction.
-
-&nbsp;

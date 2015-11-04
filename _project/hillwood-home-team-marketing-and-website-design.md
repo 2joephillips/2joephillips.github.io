@@ -1,7 +1,7 @@
 ---
-title: Portfolio
-layout: page
-published: false
+title: HillWood Home Team - Marketing and Website
+description: With 10 year experience in selling homes in Buford, GA, I was able to help HillWood Home Team refresh their brand through a new website and marketing materials that showcase their services.  The goal of the project was to highlight the major services they provide and create a interactive site that provided at its core MLS search.
+image_path: "http://josephephillips.com/wp-content/uploads/2015/10/Market.jpg"
 ---
 <div class="jetpack-portfolio-shortcode column-2">
   <div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">
@@ -16,7 +16,7 @@ published: false
     
     <div class="portfolio-entry-content">
       <p>
-        With 10 year experience in selling homes in Buford, GA, I was able to help HillWood Home Team refresh their brand through a new website and marketing materials that showcase their services.  The goal of the project was to highlight the major services they provide and create a interactive site that provided at its core MLS search. The [&hellip;]
+        With 10 year experience in selling homes in Buford, GA, I was able to help HillWood Home Team refresh their brand through a new website and marketing materials that showcase their services.  The goal of the project was to highlight the major services they provide and create a interactive site that provided at its core MLS search. The 
       </p>
     </div>
   </div>

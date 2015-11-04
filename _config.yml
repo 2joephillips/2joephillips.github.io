@@ -3,7 +3,8 @@
 title:            Joseph E Phillips
 locale:           en_US
 url:
-
+collections:
+  - project
 
 # Jekyll configuration
 
@@ -22,6 +23,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+
 
 
 # Site owner

@@ -1,0 +1,16 @@
+<section id="services">
+    <div class="container">
+        Help
+        <div class="row">
+          {% for project in site.project %}
+            <div class="col-lg-2 col-md-3 text-center">
+              <div class="service-box">
+                <h3>{{ project.title }}</h3>
+                <img src="{{ project.image_path }}" alt="{{ project.title }}"/>
+                <p class="text-muted">{{ project.description }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+</section>

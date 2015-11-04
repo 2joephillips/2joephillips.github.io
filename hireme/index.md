@@ -17,7 +17,7 @@ Want to know about the work I have done check out my recent <a href="{{ site.url
 
 If you would like to talk about a project.
 
-<form action="http://formspree.io/joseph@josephephillips.com">
+<form action="http://formspree.io/joseph@josephephillips.com" method="POST">
   Email: <input type="email" name="_replyto">
   Note: <textarea name="body"></textarea>
   <input type="hidden" name="_subject" value="New Webite Email!" />

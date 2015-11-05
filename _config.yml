@@ -4,7 +4,9 @@ title:            Joseph E Phillips
 locale:           en_US
 url:
 collections:
-  - project
+   project:
+     output: true
+
 
 # Jekyll configuration
 

@@ -1,0 +1,37 @@
+<section>
+
+    <h3 id="about-me">
+         About Myself
+    </h3>
+
+    <div class="face-lockup">
+        <div class="face-img"></div>
+        <div class="icon-">{% include icons/icon-left1.html %}</div>
+        <div class="icon-left2">{% include icons/icon-left2.html %}</div>
+        <div class="icon-right1">{% include icons/icon-right1.html%}</div>
+        <div class="icon-right2">{% include icons/icon-right2.html %}</div>
+    </div>
+
+    <div class="blurb">
+        <p>
+            {{site.data.settings.blurb}}
+        </p>
+    </div>
+
+<!--
+    <div class="skill-lockup">
+      {% for skill in site.data.settings.skills %}
+
+        <div class="skill-unit">
+            <div class="skill-label">{{ skill.name }}</div>
+            <div class="skill-icons skill-{{ skill.value }}">
+                {% for i in (1..10)%}
+                  <span></span>
+                {% endfor %}
+            </div>
+        </div>
+
+      {% endfor  %}
+    </div>
+-->
+</section>

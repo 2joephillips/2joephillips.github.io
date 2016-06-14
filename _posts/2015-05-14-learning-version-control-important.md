@@ -1,17 +1,18 @@
 ---
-title: 'My Takeaways on Version Control &#8211; Why is it important?'
 layout: post
-permalink: /my-takeaways-on-version-control-important/
-categories:
-  - My Takeaways
+title: 'Learning Version Control &#8211; Why is it important?'
+author: Joseph
+description: 'VC Saves lives!'
+tags:
+  - Version Control
+published: true
 ---
 Over the last couple months, I have been doing a lot more  programming. Doing so, I have learned the importance of Version Control (Reversion Control or Source Control). So, why is this so important?
 
-It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad&#8217;s post [A Visual Guide to Version Control][1].
+It lets you easily fix your messed up/jacked up mistake!!!  To grasp these concepts, I but the below post together. A lot of what I have below has been inspired by  Kalid Azad&#8217;s post [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/).
 
-[<img class="aligncenter" src="http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350" alt="" name="ebba8eb4-8af3-42cd-a7e2-2716654f99e5" align="center" border="0" data-recalc-dims="1" />][1]
+<img  src="http://i0.wp.com/betterexplained.com/wp-content/uploads/version_control/version_control_intro_small.png?resize=786%2C350" alt="Version Control Image" align="center" />
 
-<!--more-->
 
 **You always have some sort of Version Control**. Some are just better than others.
 
@@ -22,7 +23,7 @@ You just might have not known it. We create new copies of the same file to show 
   * indexV3.png
   * indexV4.png
 
-### **Will this work for Coding?**
+#### **Will this work for Coding?**
 
 While using this system for documentation is fine. Maintaining the number of files needed for a basic Web Application, let alone a large program it will not work.
 
@@ -39,15 +40,13 @@ This is where a Version Control System(VCS) comes into place. A good VCS does th
   * **Sandboxing**, or insurance against yourself. Making a big change? You can make temporary changes in an isolated area, test and work out the kinks before “checking in” your changes.
   * **Branching and merging**. A larger sandbox. You can **branch** a copy of your code into a separate area and modify it in isolation (tracking changes separately). Later, you can **merge** your work back into the common area.
 
-### **First, learn the lingo for some concepts and actions**
+#### **First, learn the lingo for some concepts and actions**
 
-Personally, I use [Git ][2]for my Version Control, and hosting all my code on [GitHub][3].  This could be to deploy a C# applicaiton on Azure or a Laravel site on SiteGround. All VCSs have the same basic concepts:
+Personally, I use [Git ](http://git-scm.com/)for my Version Control, and hosting all my code on [GitHub](https://github.com/).  This could be to deploy a C# applicaiton on Azure or a Laravel site on SiteGround. All VCSs have the same basic concepts:
 
-### **Concepts**
+#### **Concepts**
 
-<span class="collapseomatic " id="id9548"  tabindex="0" title="Click to see">Click to see</span>
-
-<div id="target-id9548" class="collapseomatic_content ">
+<div id="target-id7306" class="collapseomatic_content ">
   <ul>
     <li>
       <strong>Repository (repo)</strong>: A repository contains the history, the different versions over time and all different branches and tags. In Git each copy of the repository is a complete repository. The repository allows you to retrieve revisions into your working copy.
@@ -67,11 +66,9 @@ Personally, I use [Git ][2]for my Version Control, and hosting all my code on [
   </ul>
 </div>
 
-### **Basic Actions**
+#### **Basic Actions**
 
-<span class="collapseomatic " id="id8622"  tabindex="0" title="Click to see">Click to see</span>
-
-<div id="target-id8622" class="collapseomatic_content ">
+<div id="target-id9796" class="collapseomatic_content ">
   <ul>
     <li>
       <strong>Add</strong>: Put a file into the repo for the first time, i.e. begin tracking it with Version Control.
@@ -97,11 +94,9 @@ Personally, I use [Git ][2]for my Version Control, and hosting all my code on [
   </ul>
 </div>
 
-### **Advanced Actions**
+#### **Advanced Actions**
 
-<span class="collapseomatic " id="id5453"  tabindex="0" title="Click to see">Click to see</span>
-
-<div id="target-id5453" class="collapseomatic_content ">
+<div id="target-id9051" class="collapseomatic_content ">
   <ul>
     <li>
       <strong>Branch</strong>: Create a separate copy of a file/folder for private use (bug fixing, testing, etc). Branch is both a verb (“branch the code”) and a noun (“Which branch is it in?”).
@@ -134,12 +129,8 @@ Personally, I use [Git ][2]for my Version Control, and hosting all my code on [
 
 Joseph **adds** a file (`HoneyDoes.txt`) to the **repository**. He **checks it out**, makes a change (puts “Cut Grass” on the list), and checks it back in with a checkin message (“Added required item.”). The next morning, Katya **updates** her local cop sees the latest revision of HoneyDoes`.txt`, which contains Joseph&#8217;s addition. She can browse the **changelog** or **diff** to see that Joseph put “Cut Grass” the day before.
 
-## Take away&#8230;
+#### Take away&#8230;
 
 As you can see Version Control is the best and simplest solution for managing changes in a coding environment. There are a robust amount of features and options that Version Control can provide. Over the next couple weeks, I will provide more solutions and tutorials on setting up Git and GitHub, and using on a daily basis.
 
 &nbsp;
-
- [1]: http://betterexplained.com/articles/a-visual-guide-to-version-control/
- [2]: http://git-scm.com/
- [3]: https://github.com/

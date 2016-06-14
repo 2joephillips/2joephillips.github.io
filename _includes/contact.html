@@ -1,0 +1,11 @@
+<section class="section-contact">
+
+    <h3 id="contact">Contact</h3>
+    <div class="social-links">
+        {% for link in site.data.settings.social%}
+        <a target="_blank" href="{{link.link}}" class="fa {{link.icon}} fa-2x"></a>
+        {% endfor %}
+    </div>
+    <hr class="bar">
+    <a class="biglink" href="{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+</section>

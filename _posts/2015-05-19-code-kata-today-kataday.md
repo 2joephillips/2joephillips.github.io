@@ -1,9 +1,11 @@
 ---
-title: Code Kata + today = Kataday!
 layout: post
-permalink: /code-kata-today-kataday/
-categories:
+title: Code Kata + today = Kataday!
+author: Joseph
+description:
+tags:
   - KataDay
+published: false
 ---
 I originally heard of Dave Thomas&#8217; [Code Kata][1] months ago. The thought behind Code Kata is to take simple problems, and use them as a learning experience to improve ones coding/algorithm/critical thinking. At the time, I thought it would be nice idea to do, but I did not have the drive to actually proceed with doing any. Jump forward, and I have decided to revisit this subject. I hope this week is to do 5 days of Code Kata and post my experiences here. Aftwards, I will do these little Code Kata&#8217;s any day during the week. Then share what I have learned. Hence, today is my first Kataday! (*Stop Laughing! I think it is cool!*) In most cases, the solution will not be the best,but it is just what I came up with to solve the Kata
 
@@ -24,10 +26,10 @@ namespace KataDay
                     if (char.IsLetterOrDigit(i))
                         if(char.IsLetterOrDigit(C))
                         Debug.WriteLine(i + " " + C);
-                    } 
-                } 
-            } 
-        } 
+                    }
+                }
+            }
+        }
     }</pre>
 
  [1]: http://codekata.pragprog.com/

@@ -1,60 +1,64 @@
 ---
-title: 'How to use Comic Vine API &#8211; Part 1'
 layout: post
-permalink: /how-to-use-comic-vine-api-part-1/
-categories:
-  - API Calls
+title: 'Comic Vine API &#8211; Part 1 &#8211; Basics'
+author: Joseph
+description:
+tags:
+  - API
 ---
 I LOVE COMICS! I have a nice collection of comics, and I have been wanting to make a library resources system that can provide me some information on the comics I have.
 
-Luckily, <a href="http://comicvine.com" target="_blank">Comic Vine</a> has more metadata than I could ever need. Plus, they have a free <a href="http://comicvine.com/api" target="_blank">Web API </a>that gives access to all their data, which is a perfect solution for what I am trying to accomplish.
+Luckily, [Comic Vine](http://comicvine.com) has more metadata than I could ever need. Plus, they have a free [Web API](http://comicvine.com/api) that gives access to all their data, which is a perfect solution for what I am trying to accomplish.
 
-The bad news, I am a little rusty on Web API, so I needed to find some Comic Vine API Examples to help me get started. My first idea was to check the forums to make sure they had all that I needed to get started&#8230; Good documentation, but no examples. So, then I decided to Google what I was looking for&#8230;. A little better, but that was more re-directing me back to the forums.  Lastly, I wanted to see what was already created. Two projects caught my eye: <a href="https://code.google.com/p/comic-vine-scraper/" target="_blank">Comic Vine Scrapper for Comicrack</a> and <a href="http://sharpcomicvine.codeplex.com/" target="_blank">Sharp ComicVine</a>. Both of which had calls to the API that I could use as starting points for my system.
+The bad news, I am a little rusty on Web API, so I needed to find some Comic Vine API Examples to help me get started. My first idea was to check the forums to make sure they had all that I needed to get started&#8230; Good documentation, but no examples. So, then I decided to Google what I was looking for&#8230;. A little better, but that was more re-directing me back to the forums.  Lastly, I wanted to see what was already created. Two projects caught my eye: [Comic Vine Scrapper for Comicrack](https://code.google.com/p/comic-vine-scraper/) and [Sharp ComicVine](http://sharpcomicvine.codeplex.com/). Both of which had calls to the API that I could use as starting points for my system.
 
 But, I wanted a more straight forward resource, so I decided to write one up.
 
-This first blog covers some of the Comic Vine API  structure, basic API calls,  sorting results, and limt data returned.<!--more-->
+This first blog covers some of the Comic Vine API  structure, basic API calls,  sorting results, and limt data returned.
 
 For these posts, I  will use the following abbreviations for API resources.
 
-### Abbreviations
+#### Abbreviations
 
-  * ***YOUR_APIKEY*** = Your Personal API Key. Can be acquired <a href="https://auth.comicvine.com/signup/" target="_blank">here</a>.
-  * ***URL*** = The Comic Vine API address is <a href="http://www.comicvine.com/api" target="_blank">www.comicvine.com/api</a>
-  * **<Resources> **= The Comic Vine Resources, sample below
-  * **<Field_List> **=  Any field within the resource being called
+  * ***YOUR_APIKEY*** = Your Personal API Key. Can be acquired [here](https://auth.comicvine.com/signup/).
+  * ***URL*** = The Comic Vine API address is [www.comicvine.com/api](http://www.comicvine.com/api)
+  * **\<Resources>** = The Comic Vine Resources, sample below
+  * **\<Field_List>** =  Any field within the resource being called
 
-### Sample of API Resources
+#### Sample of API Resources
 
 Each resource as a plural and singular component. In most API calls, you will use the plural to have the call return a list of  the singular.
 
 <p style="padding-left: 90px;" align="left">
-  <a href="http://www.comicvine.com/api/documentation#toc-0-2" target="_blank">Character</a><a href="http://www.comicvine.com/api/documentation#toc-0-3" target="_blank">(s)</a>         <a href="http://www.comicvine.com/api/documentation#toc-0-10" target="_blank">Issue</a><a href="http://www.comicvine.com/api/documentation#toc-0-11" target="_blank">(s)</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-2" target="_blank">Character</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-3" target="_blank">(s)</a>        
+  <a href="http://www.comicvine.com/api/documentation#toc-0-10" target="_blank">Issue</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-11" target="_blank">(s)</a>
 </p>
 
 <p style="padding-left: 90px;" align="left">
-  <a href="http://www.comicvine.com/api/documentation#toc-0-26" target="_blank">Publisher</a><a href="http://www.comicvine.com/api/documentation#toc-0-27" target="_blank">(s)</a>          <a href="http://www.comicvine.com/api/documentation#toc-0-28" target="_blank">Series</a>/<a href="http://www.comicvine.com/api/documentation#toc-0-29" target="_blank">Series_List</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-26" target="_blank">Publisher</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-27" target="_blank">(s)</a>         
+  <a href="http://www.comicvine.com/api/documentation#toc-0-28" target="_blank">Series</a>/
+  <a href="http://www.comicvine.com/api/documentation#toc-0-29" target="_blank">Series_List</a>
 </p>
 
 <p style="padding-left: 90px;" align="left">
-  <a href="http://www.comicvine.com/api/documentation#toc-0-33" target="_blank">Team</a><a href="http://www.comicvine.com/api/documentation#toc-0-34" target="_blank">(s)</a>                 <a href="http://www.comicvine.com/api/documentation#toc-0-40" target="_blank">Volume</a><a href="http://www.comicvine.com/api/documentation#toc-0-41" target="_blank">(s)</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-33" target="_blank">Team</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-34" target="_blank">(s)</a>                 <a href="http://www.comicvine.com/api/documentation#toc-0-40" target="_blank">Volume</a>
+  <a href="http://www.comicvine.com/api/documentation#toc-0-41" target="_blank">(s)</a>
 </p>
 
 <p style="padding-left: 90px;" align="left">
   <a href="http://www.comicvine.com/api/documentation#toc-0-30" target="_blank">Search</a>
 </p>
 
-<p align="left">
-  <strong>Also before we dive into the examples, I want to mention how the </strong><a href="http://www.comicvine.com/api/documentation#toc-0-0" target="_blank"><strong>results</strong> </a><strong>are delivered. </strong>They are arranged as<strong>; </strong>error, limit (Comic Vine caps at 100), offset, number of page results, number of total results, status code, and results. The first example will breakdown these areas in more detail
+Also before we dive into the examples, I want to mention how the <a href="http://www.comicvine.com/api/documentation#toc-0-0" target="_blank"><strong>results</strong> </a><strong>are delivered. </strong>They are arranged as<strong>; </strong>error, limit (Comic Vine caps at 100), offset, number of page results, number of total results, status code, and results. The first example will breakdown these areas in more detail
 </p>
 
-<h3 align="left">
-  Okay, finally, some Comic Vine API Examples…..
-</h3>
+#### Okay, finally, some Comic Vine API Examples…..
 
-<p align="left">
-  <strong>First, a basic API CALL to to pull back all the data for a specific resource</strong> that is stored on Comic Vine. By design, this call will pull all issues back in a random pattern. The API call for this is:
-</p>
+<strong>First, a basic API CALL to to pull back all the data for a specific resource</strong> that is stored on Comic Vine. By design, this call will pull all issues back in a random pattern. The API call for this is:
 
 <p align="center">
   <strong>URL/<resource>/?api_key=YOUR_APIKEY</strong>
@@ -137,7 +141,7 @@ The response shows that the API call was “OK”, meaning there were no errors.
         &lt;issue&gt;...&lt;/issue&gt; // Collapsed for readability
         &lt;issue&gt;...&lt;/issue&gt; // Collapsed for readability
         &lt;issue&gt;...&lt;/issue&gt;  // Collapsed for readability</pre>
-  
+
   <p>
     <strong>Second,  add structure to how the data is returned with a <em>sort</em>, </strong>the format for this is:
   </p>
@@ -181,7 +185,7 @@ From looking at the wiki, the first comic book that should be returned is Edgar 
      &lt;/name&gt;</pre>
 
 > ### Interesting side note
-> 
+>
 > If you call, **URL/issues/?api\_key=YOUR\_APIKEY &sort=name**, you are searching for the name of the issue. With numerous issues not having names, these nameless issues are returned, but are not in any order by volumes.
 
 **By changing the resource you can pull different items. **

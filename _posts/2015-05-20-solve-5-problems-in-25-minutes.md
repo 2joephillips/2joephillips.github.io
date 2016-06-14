@@ -1,9 +1,11 @@
 ---
-title: Solve 5 problems in 25 minutes
 layout: post
-permalink: /solve-5-problems-in-25-minutes/
-categories:
+title: Solve 5 problems in 25 minutes
+author: Joseph
+description:
+tags:
   - KataDay
+published: false
 ---
 The whole premise of KataDays are to take simple problems, and use them as a learning experience to improve my coding/algorithm/critical thinking. SO, to make make today interesting, I found 5 simple problems, at the end of this post , and I am giving my self 5 minutes per problem to solve each one&#8230;.
 
@@ -15,7 +17,7 @@ Below are the differences between me and a co-worker. This was based on our tho
 
 My Code
 
-<pre class="lang:c# decode:true">///// 
+<pre class="lang:c# decode:true">/////
  foreach (var item in _males)
  {
             {

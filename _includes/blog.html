@@ -1,0 +1,24 @@
+<section class="alt-section  ">
+  <div class="blog-section">
+
+
+  <h3 id="blog">Blog</h3>
+
+  <section class="list">
+    {% for post in site.posts limit:4 %}
+    <div class="item">
+      <a class="url" href="{{ site.url }}{{ post.url }}">
+        <aside class="date">
+          <time datetime="{{ post.date | date:" %d-%m-%Y " }}">{{ post.date | date: "%b %d %Y" }}</time>
+        </aside>
+        <span class="title">{{ post.title }}</span>
+        <p>{{ post.excerpt | strip_html | truncate: 225 }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </section>
+
+
+  <h4><a href="/blog">Full List</a></h4>
+    </div>
+</section>

@@ -1,17 +1,17 @@
 ---
-title: My Takeaways on Understanding Software Construction Metaphors
 layout: post
-permalink: /what-am-i-learning-software-construction-metaphors/
-categories:
+title: Understanding Software Construction Metaphors
+author: Joseph
+description: "Notes from Code Complete - Software Metaphors"
+tags:
   - My Takeaways
+published: true
 ---
 *My Takeaways,* are a collection of information and concepts that I learn through books, programming, and work experiences. In some cases these posts will be just my personal notes. While they may not give you the audience much pleasure in reading, they will serve as my digital resource library.
 
 The Software Contstruction section will extract information from the book <a href="http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_2?s=books&ie=UTF8&qid=1404135814&sr=1-2&keywords=software+construction" target="_blank">Code Complete </a>by <a href="http://www.amazon.com/Steve-McConnell/e/B000APETRK/ref=ntt_athr_dp_pel_1" target="_blank">Steve McConnell</a>.  This book is still one of the most regarded books on this subject. As these notes are coming from the fore-mentioned book ***credit is given to the author***.
 
-### **Why use Metaphors**
-
-<img class="alignleft wp-image-527 size-medium" src="http://i1.wp.com/josephephillips.com/wp-content/uploads/2015/05/cartoon_metaphor-300x230.jpg?fit=300%2C230" alt="cartoon_metaphor" data-recalc-dims="1" />
+#### **Why use Metaphors**
 
 By comparing a topic you understand poorly to something you understand better, you come up with insights that result in a better understand of the less-familiar. This use of metaphor is called “modeling”.
 
@@ -19,11 +19,7 @@ A good metaphor is simple, relates well to other relevant metaphors, and explain
 
 Software development is not yet mature enough to have a set of standard metaphors. Consequently, it has profusion of complementary and conflicting metaphors. Some are better than others. Some are worse.
 
-### 
-
-### <!--more-->
-
-### **How to use Metaphors**
+#### **How to use Metaphors**
 
 A metaphor serves more as a heuristic than it does as an algorithm.
 
@@ -32,7 +28,7 @@ An algorithm is a set of well-defined instruction for carrying out a particular 
   * Use them to give you insight into your programming problems and processes.
   * Use them to help you think about programming activates and to help you imagine better ways of doing things.
 
-### **What are some Common Software Metaphors**
+#### **What are some Common Software Metaphors**
 
 **Software Penmanship: Writing Code**
 

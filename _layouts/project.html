@@ -17,7 +17,37 @@
                 {% if page.tags %}
                 {% for tag in page.tags %}
                 <div class="col-lg-3 col-md-4">
-                  {% include project-tags.html %}
+                  {% if tag=='Website Development' %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    {% if tag=='Application Development' %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    {% if tag=='Email Marketing' %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    {% if tag=='Data Visualizations' %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    {% if tag=='Print' %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-file-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    {% endif %}
+                    {{tag}}
                 </div>
                 {% endfor %}
                 {% endif %}
@@ -25,7 +55,7 @@
         </div>
     </div>
     </div>
-    {% include call-to-action.html headertext="Let's Work Together!" button1text="See more" button1url="/#portfolio" button2text="Contact Me" button2url="/#contact"%} 
+    {% include call-to-action.html headertext="Let's Work Together!" button1text="See more" button1url="/#portfolio" button2text="Contact Me" button2url="/#contact"%}
     {% include scripts.html %}
 </body>
 

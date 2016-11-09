@@ -2,7 +2,7 @@
 layout: post
 title: 'Plan before Automating&#8230;'
 author: Joseph
-img: /assets/img/blog/broken-fax-machine.jpg
+img: /assets/img/blog/Broken-fax-machine.jpg
 description: 'Planning matters and a tirade on the matter'
 tags:
   - Project Management

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    {% include navigation.html %}
+    {% include callout.html subject=page.title class="blog"%}
+
+    <div class="container">
+        <div class="row">
+          {% include post-navigation.html %}
+            <hr>
+            <!-- sidebar -->
+            <div class="col-sm-4 post">
+                {% include post-info.html %}
+                <hr />
+                <!-- large screens recent posts-->
+                <div class="recent-post hidden-xs">
+                  {% include recent-posts.html %}
+                </div>
+            </div>
+            <!-- main content -->
+            <div class="col-sm-8">
+
+                {{content}}
+                <!-- small screens recent posts-->
+                  <div class="col-sm-4 visible-xs post">
+                    <div class="recent-post visible-xs">
+                      {% include recent-posts.html %}
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>

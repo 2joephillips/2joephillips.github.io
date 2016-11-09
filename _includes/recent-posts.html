@@ -1,0 +1,6 @@
+<h3 class="">Recent Posts</h3>
+<ul class="list-unstyled">
+  {% for post in site.posts limit:3 %}
+    {% include post-small.html %}
+  {% endfor %}
+</ul>

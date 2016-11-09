@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+<body>
+
+  {% include navigation.html %}
+  {% include callout.html subject=page.title class="blog"%}
+
+  <div class="container">
+    {% include post-navigation.html %}
+      <hr>
+      <div class="container">
+              {{content}}
+      </div>
+
+  </div>
+  {% include call-to-action.html headertext="Katas are FUN!" button1text="See more Katas" button1url="/katas" button2text="Contact Me" button2url="/#contact"%}
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+
+</html>

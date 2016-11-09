@@ -1,0 +1,408 @@
+/* Global Styles */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** Text Centering **/
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.text-vertical-center h3 {
+    color: white
+}
+
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 75%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 75px;
+    color: white;
+}
+
+
+/* Header Images */
+
+.bg1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg1.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg3.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg4.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg5 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg5.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg6 {
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/callout/bg6.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio a {
+    text-decoration: none;
+}
+
+.project {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.project h2 {
+    padding-bottom: 10px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+
+/*disable custom maps scrolling behaviour*/
+
+.scrolloff {
+    pointer-events: none;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 100px 0;
+}
+
+
+/* Page Layout */
+
+.pagelayout {
+    padding-top: 70px;
+}
+
+/* Post Layout */
+.post-content {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background: white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.postabout h4 {
+    line-height: 2.0;
+}
+
+.post img {
+    width: 150px;
+}
+
+/* Recent Post */
+.post .recent-post li {
+    height: 70px;
+}
+
+.post .recent-post img {
+    width: 60px;
+}
+
+.post .recent-post a {
+    text-decoration: none;
+}
+
+.post .recent-post .text {
+    margin-left: 75px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* Post Navigation */
+.PostNavigation {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+.PostNavigation a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+    text-decoration: none;
+}
+
+.PostNavigation .next {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .PageNavigation a {
+        width: 75%;
+        margin: .25em 4em 0 4em;
+    }
+}
+
+/* Image Modal */
+.pop {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+    .callout .text-vertical-center h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    [class*="col-"] {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Hover Effect for Posts */
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: -200px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s;
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    top: 0px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 32px;
+    padding: 10px;
+    background: rgba(51, 122, 183, 0.8);
+    -webkit-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all ease-in-out 0s;
+    transition: all ease-in-out 0s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.hovereffect h2.portfolios {
+    font-size: 32px;
+}
+
+.hovereffect h2.portfolio {
+    font-size: 17px;
+}
+
+.hovereffect:hover h2 {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.hovereffect span.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
+    top: 75%;
+    background-color: transparent;
+    -webkit-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all ease-in-out 0s;
+    transition: all ease-in-out 0s;
+}
+
+.hovereffect span.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover span.info {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}

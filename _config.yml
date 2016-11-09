@@ -1,0 +1,40 @@
+# Site settings
+title: Joseph E Phillips
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+permalink: /blog/:title
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  katas:
+    output: true
+    permalink: /katas/:path/
+
+
+# User setting
+owner: Joseph E Phillips
+email: joseph@josephephillips.com
+facebook_username: 2josephillips
+twitter_username: 2joephillips
+github_username: 2joephillips
+instagram_username: 2joephillips
+address:
+  - line: 1270 Park Pass Way
+  - line: Suwanee, GA 30024
+  # Feel free to add more lines here
+telephone:
+copyright:
+
+# API settings
+google_api_key:
+
+# Build settings
+markdown: kramdown

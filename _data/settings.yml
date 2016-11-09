@@ -1,0 +1,13 @@
+#Projects List
+projects:
+- {name: The Soccer Tutor, folder: 'proj-1', url: 'projects/soccertutor'}
+- {name: Fresno Counseling, folder: 'proj-2', url: 'projects/fresnocounsling'}
+- {name: HillWood Home Team, folder: 'proj-3', url: 'projects/hillwoodhometeam'}
+- {name: Bark And Boogie Ball, folder: 'proj-4', url: 'projects/barkboogieball'}
+
+#Services List
+
+services:
+  - {name: Web Development, desc: 'Putting all the nuts and bolts together to make something great!', fa: 'fa fa-desktop'}
+  - {name: Data Visualization, desc: 'Conveying complex ideas with simple illustrations.', fa: 'fa fa-area-chart'}
+  - {name: Email Marketing, desc: 'Creating impressions that foster intrest and connections.', fa: 'fa fa-envelope-o'}

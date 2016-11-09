@@ -1,0 +1,30 @@
+<div class="col-sm-12 col-xs-6">
+    <img src="/img/face_me2.jpg" class="img-circle" alt="" />
+</div>
+<div class="col-sm-12 col-xs-6">
+    <div class="postabout">
+        <h4><i class="fa fa-user" aria-hidden="true"></i>  <small>{{page.author}}</small>
+      <br>
+      <i class="fa fa-calendar" aria-hidden="true"></i>  <small>{{page.date | date: '%B %d, %Y'}}</small>
+      <br>
+      <i class="fa fa-book" aria-hidden="true"></i>
+      <span class="reading-time" title="Estimated read time">
+        <small>
+          {% assign words = page.content | number_of_words %}
+          {% if words < 360 %}
+            1 min
+          {% else %}
+            {{ words | divided_by:180 }} mins
+          {% endif %}
+          to read
+        </small>
+      </span>
+      <br>
+      <i class="fa fa-tags" aria-hidden="true"></i>
+      {% for tag in page.tags %}
+        <small><button type="button" class="btn btn-default btn-xs">{{tag}}</button></small>
+      {% endfor %}
+  </h4>
+
+    </div>
+</div>

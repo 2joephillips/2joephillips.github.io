@@ -80,7 +80,7 @@ The response for the Issues API call is:
 </code>
 </pre>
 
-<img class="img-portfolio img-responsive"  src="/img/blog/Issues.png" />
+<img class="img-portfolio img-responsive"  src="/assets/img/blog/Issues.png" />
 
 The response shows that the API call was “OK”, meaning there were no errors. Along with showing that the limit of 100 results was reached, but there were a 506,911 results matching the Comic Vine Wiki for issues. (Later will explain the two ways, page and offset, to iterate through the results.) The results section for any API call will show all the fields that are available for a resource. In this scenario we requested all the **issues**, and see the **issue** fields.
 

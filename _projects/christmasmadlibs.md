@@ -10,8 +10,8 @@ tags:
 This site was a simple idea for a way to have fun during the Christmas Holidays. It builds on the fun of a simple Mad Lib. There are three Christmas options to chose from.
 The user selects, then fills in the answers, and recieves the classic Christmas stories with a slight twist. 
 
-The fun about this project is that I built it from idea to release in a couple hours using Angular and hosting on Heroku. If you would like to check it out
-the site of the code base use the below links.
+The fun is that I built it from idea to release in a couple hours using Angular and hosting on Heroku. If you would like to check out
+the site or the code base use the below links.
 
 [Christmas Mad Libs](secure-refuge-85934.herokuapp.com){:target="_blank"} 
 
@@ -21,7 +21,7 @@ the site of the code base use the below links.
 
 
 <div class="container">
-  <div class="row">
+<div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 pop">
       <div class="hovereffect">
         <img src="/assets/img/projects/proj-5/inputWords.png" alt="Add Auction Items" class="img-responsive center-block" />

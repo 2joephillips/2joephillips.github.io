@@ -4,6 +4,7 @@ projects:
 - {name: Fresno Counseling, folder: 'proj-2', url: 'projects/fresnocounsling'}
 - {name: HillWood Home Team, folder: 'proj-3', url: 'projects/hillwoodhometeam'}
 - {name: Bark And Boogie Ball, folder: 'proj-4', url: 'projects/barkboogieball'}
+- {name: Christmas Mad Libs, folder: 'proj-5', url: 'projects/christmasmadlibs'}
 
 #Services List
 

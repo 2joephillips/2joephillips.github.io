@@ -20,6 +20,8 @@ the site of the code base use the below links.
 
 
 
+<div class="container">
+  <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 pop">
       <div class="hovereffect">
         <img src="/assets/img/projects/proj-5/inputWords.png" alt="Add Auction Items" class="img-responsive center-block" />

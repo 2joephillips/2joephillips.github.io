@@ -18,6 +18,12 @@ $(function() {
     });
 });
 
+$(function(){ 
+     var navMain = $("#nav-sm");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
 
 // Map scrolling behaviour
 $(document).ready(function() {

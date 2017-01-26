@@ -13,7 +13,7 @@ The user selects, then fills in the answers, and recieves the classic Christmas 
 The fun is that I built it from idea to release in a couple hours using Angular and hosting on Heroku. If you would like to check out
 the site or the code base use the below links.
 
-[Christmas Mad Libs](secure-refuge-85934.herokuapp.com){:target="_blank"} 
+[Christmas Mad Libs](https://secure-refuge-85934.herokuapp.com){:target="_blank"} 
 
 [Christmas Mad Libs - code ](https://github.com/2joephillips/christmasMadLib){:target="_blank"} 
 

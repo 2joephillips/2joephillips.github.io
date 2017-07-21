@@ -10,7 +10,7 @@ tags:
 published: true
 ---
 
-<img class="img-portfolio img-responsive pull-right"  src="/img/blog/inbox-zero.jpg" style="width:200px;"/>
+<img class="img-portfolio img-responsive pull-right"  src="/assets/img/blog/inbox-zero.jpg" style="width:200px;"/>
 
 I ran across this story. <a href="http://www.forbes.com/sites/jacobmorgan/2014/09/29/how-this-company-is-trying-to-eradicate-email/">How This Company Is Trying To Eradicate Email</a>.
 It got me thinking about *zeroing out our inboxes and reducing time spent on email.*

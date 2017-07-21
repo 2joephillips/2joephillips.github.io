@@ -16,7 +16,7 @@ The Software Construction section will extract information from the book <a hr
 
 Software Construction is the discipline that covers the creation of working, meaningful software.
 
-<img class="img-portfolio img-responsive" src="/img/blog/construction.jpg"/>
+<img class="img-portfolio img-responsive" src="/assets/img/blog/construction.jpg"/>
 
 Some of the specific tasks involved in construction are :
 

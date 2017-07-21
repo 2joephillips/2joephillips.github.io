@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-<img class="img-portfolio img-responsive" src="/img/blog/refactor.jpg"  />
+<img class="img-portfolio img-responsive" src="/assets/img/blog/refactor.jpg"  />
 
 I was working through [Bowling Game Kata ](http://www.stewshack.com/bowlinggame/gutterball){:target="_blank"} trying to learn more about Test Driven Development. When I took a rabbit trail, and I found this little nugget: [Uncle Bob&#8217;s Transformation Priority Premise.](http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html){:target="_blank"}
 

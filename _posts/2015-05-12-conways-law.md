@@ -18,7 +18,7 @@ Conway’s Law. The following link is an [article on Conway’s Law](http://haac
 
 Since I am a visual person, the [Manu Cornet’s visual interpretation](http://www.bonkersworld.net/organizational-charts/) of this law helps me better understand how this plays out in some of the top companies.
 
-<img class="img-portfolio img-responsive"  src="/img/blog/organizational_charts_2.png" />
+<img class="img-portfolio img-responsive"  src="/assets/img/blog/organizational_charts_2.png" />
 
 I like the multiple comparisons, but Google and Apple drive home the concept, I think.
 

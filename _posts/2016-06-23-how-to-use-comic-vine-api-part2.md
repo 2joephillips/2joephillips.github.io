@@ -66,7 +66,7 @@ Now, lets create a call to start pulling back some characters. Lets filter the d
 
 Our first character returned from the above call is: [Dream Girl](http://www.comicvine.com/dream-girl/4005-1254/){:target="_blank"}
 
-<img class="img-portfolio img-responsive" src="http://static6.comicvine.com/uploads/original/9/92932/2120994-dg11.jpg"  />
+<img class="img-portfolio img-responsive" src="https://static.comicvine.com/uploads/original/0/3664/197563-87187-dream-girl.jpg"  />
 
 <pre>
 <code class="xml">
@@ -138,7 +138,7 @@ So, lets see if we can find my favorite character [Hawkeye](http://www.comicvine
 
 Yep. It returned Hawkeye…. and [Sagittarius (Hawkeye LMD)](http://www.comicvine.com/sagittarius-hawkeye-lmd/4005-89494/){:target="_blank"}.  Where did this other Hawkeye come from…. Oh, the [Zodiac](http://www.comicvine.com/west-coast-avengers-26-zodiac-attack/4000-28820/){:target="_blank"} copy!!!
 
-<img class="img-portfolio img-responsive" src="http://static8.comicvine.com/uploads/original/8/84205/3106326-copy+of+6-13-2013_001.jpg"  />
+<img class="img-portfolio img-responsive" src="https://static.comicvine.com/uploads/scale_small/8/84205/3051836-copy+of+5-17-2013_002.jpg"  />
 
 <pre>
 <code class="xml">

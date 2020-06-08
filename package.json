@@ -1,0 +1,46 @@
+{
+  "name": "newjoe",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit",
+    "dev": "gatsby develop -p 9988 -o",
+    "graphql-types": "gql-gen --url http://localhost:8000/___graphql --template typescript --out ./src/graphql-types.d.ts"
+  },
+  "keywords": [],
+  "author": "Joseph E. Phillips",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.5",
+    "@mdx-js/react": "^1.6.5",
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.22.12",
+    "gatsby-plugin-graphql-codegen": "^2.7.1",
+    "gatsby-plugin-mdx": "^1.2.13",
+    "gatsby-plugin-styled-components": "^3.3.2",
+    "gatsby-plugin-typescript": "^2.4.3",
+    "gatsby-source-filesystem": "^2.3.8",
+    "prism-react-renderer": "^1.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-live": "^2.2.2",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "typescript": "^3.9.3"
+  }
+}
